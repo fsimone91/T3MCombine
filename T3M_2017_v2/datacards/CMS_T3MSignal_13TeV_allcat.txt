@@ -1,0 +1,44 @@
+Combination of bin1=CMS_T3MSignal_13TeV_A1.txt  bin2=CMS_T3MSignal_13TeV_A2.txt  bin3=CMS_T3MSignal_13TeV_B1.txt  bin4=CMS_T3MSignal_13TeV_B2.txt  bin5=CMS_T3MSignal_13TeV_C1.txt  bin6=CMS_T3MSignal_13TeV_C2.txt
+imax 6 number of bins
+jmax 1 number of processes minus 1
+kmax 12 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes bkg       bin1      workspaces/CMS_T3MBkg_13TeV.root w_all:bkg_fit_1par_A1
+shapes data_obs  bin1      workspaces/CMS_T3MBkg_13TeV.root w_all:data_obs_A1
+shapes signal    bin1      workspaces/CMS_T3MSignal_13TeV.root w_all:t3m_sig_shape_A1
+shapes bkg       bin2      workspaces/CMS_T3MBkg_13TeV.root w_all:bkg_fit_1par_A2
+shapes data_obs  bin2      workspaces/CMS_T3MBkg_13TeV.root w_all:data_obs_A2
+shapes signal    bin2      workspaces/CMS_T3MSignal_13TeV.root w_all:t3m_sig_shape_A2
+shapes bkg       bin3      workspaces/CMS_T3MBkg_13TeV.root w_all:bkg_fit_1par_B1
+shapes data_obs  bin3      workspaces/CMS_T3MBkg_13TeV.root w_all:data_obs_B1
+shapes signal    bin3      workspaces/CMS_T3MSignal_13TeV.root w_all:t3m_sig_shape_B1
+shapes bkg       bin4      workspaces/CMS_T3MBkg_13TeV.root w_all:bkg_fit_1par_B2
+shapes data_obs  bin4      workspaces/CMS_T3MBkg_13TeV.root w_all:data_obs_B2
+shapes signal    bin4      workspaces/CMS_T3MSignal_13TeV.root w_all:t3m_sig_shape_B2
+shapes bkg       bin5      workspaces/CMS_T3MBkg_13TeV.root w_all:bkg_fit_1par_C1
+shapes data_obs  bin5      workspaces/CMS_T3MBkg_13TeV.root w_all:data_obs_C1
+shapes signal    bin5      workspaces/CMS_T3MSignal_13TeV.root w_all:t3m_sig_shape_C1
+shapes bkg       bin6      workspaces/CMS_T3MBkg_13TeV.root w_all:bkg_fit_1par_C2
+shapes data_obs  bin6      workspaces/CMS_T3MBkg_13TeV.root w_all:data_obs_C2
+shapes signal    bin6      workspaces/CMS_T3MSignal_13TeV.root w_all:t3m_sig_shape_C2
+----------------------------------------------------------------------------------------------------------------------------------
+bin          bin1   bin2   bin3   bin4   bin5   bin6 
+observation  684    4982   930    9085   36     1110 
+----------------------------------------------------------------------------------------------------------------------------------
+bin                                  bin1     bin1     bin2     bin2     bin3     bin3     bin4     bin4     bin5     bin5     bin6     bin6   
+process                              signal   bkg      signal   bkg      signal   bkg      signal   bkg      signal   bkg      signal   bkg    
+process                              0        1        0        1        0        1        0        1        0        1        0        1      
+rate                                 11.8109  684      21.7545  4982     18.8678  930      44.5438  9085     2.02582  36       11.8785  1110   
+----------------------------------------------------------------------------------------------------------------------------------
+BRBtoD_13TeV            lnN          1.05     -        1.05     -        1.05     -        1.05     -        1.05     -        1.05     -      
+BRBtoTau_13TeV          lnN          1.03     -        1.03     -        1.03     -        1.03     -        1.03     -        1.03     -      
+BRDToTau_13TeV          lnN          1.03     -        1.03     -        1.03     -        1.03     -        1.03     -        1.03     -      
+BRDsPhiPi_13TeV         lnN          1.08     -        1.08     -        1.08     -        1.08     -        1.08     -        1.08     -      
+BsScaling_13TeV         lnN          1.04     -        1.04     -        1.04     -        1.04     -        1.04     -        1.04     -      
+DpmScaling_13TeV        lnN          1.03     -        1.03     -        1.03     -        1.03     -        1.03     -        1.03     -      
+DsNorm_13TeV            lnN          1.06     -        1.06     -        1.06     -        1.06     -        1.06     -        1.06     -      
+UncBDTCut_13TeV         lnN          1.05     -        1.05     -        1.05     -        1.05     -        1.05     -        1.05     -      
+UncMuonEff_13TeV        lnN          1.015    -        1.015    -        1.015    -        1.015    -        1.015    -        1.015    -      
+UncRatioAcc_13TeV       lnN          1.01     -        1.01     -        1.01     -        1.01     -        1.01     -        1.01     -      
+UncTrigger_13TeV        lnN          1.13     -        1.13     -        1.13     -        1.13     -        1.13     -        1.13     -      
+fUnc_13TeV              lnN          1.03     -        1.03     -        1.03     -        1.03     -        1.03     -        1.03     -      

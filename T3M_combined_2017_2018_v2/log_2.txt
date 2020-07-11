@@ -1,0 +1,2312 @@
+   ------------------------------------------------------------
+  | Welcome to ROOT 6.06/09                http://root.cern.ch |
+  |                               (c) 1995-2016, The ROOT Team |
+  | Built for linuxx8664gcc                                    |
+  | From tag , 1 September 2016                                |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q' |
+   ------------------------------------------------------------
+
+
+Processing createDataCards.cxx(" /lustrehome/fsimone/MVA_2017/datacardT3Mu_dataset_2017_miniAOD_baseline_noOmega_8julyv3.root", "2017" )...
+[#1] INFO:ObjectHandling -- RooWorkspace::exportToCint(HLFactory_ws) INFO: references to all objects in this workspace will be created in CINT in 'namespace HLFactory_ws'
+
+RooWorkspace(HLFactory_ws) HLFactory_ws contents
+
+variables
+---------
+(bkg_exp_offset_A1_2017,bkg_exp_offset_A1_2018,bkg_exp_offset_A2_2017,bkg_exp_offset_A2_2018,bkg_exp_offset_B1_2017,bkg_exp_offset_B1_2018,bkg_exp_offset_B2_2017,bkg_exp_offset_B2_2018,bkg_exp_offset_C1_2017,bkg_exp_offset_C1_2018,bkg_exp_offset_C2_2017,bkg_exp_offset_C2_2018,bkg_exp_slope_A1_2017,bkg_exp_slope_A1_2018,bkg_exp_slope_A2_2017,bkg_exp_slope_A2_2018,bkg_exp_slope_B1_2017,bkg_exp_slope_B1_2018,bkg_exp_slope_B2_2017,bkg_exp_slope_B2_2018,bkg_exp_slope_C1_2017,bkg_exp_slope_C1_2018,bkg_exp_slope_C2_2017,bkg_exp_slope_C2_2018,cb_fraction_A1_2017,cb_fraction_A1_2018,cb_fraction_A2_2017,cb_fraction_A2_2018,cb_fraction_B1_2017,cb_fraction_B1_2018,cb_fraction_B2_2017,cb_fraction_B2_2018,cb_fraction_C1_2017,cb_fraction_C1_2018,cb_fraction_C2_2017,cb_fraction_C2_2018,m3m,sig_alpha_A1_2017,sig_alpha_A1_2018,sig_alpha_A2_2017,sig_alpha_A2_2018,sig_alpha_B1_2017,sig_alpha_B1_2018,sig_alpha_B2_2017,sig_alpha_B2_2018,sig_alpha_C1_2017,sig_alpha_C1_2018,sig_alpha_C2_2017,sig_alpha_C2_2018,sig_gaus_sigma_A1_2017,sig_gaus_sigma_A1_2018,sig_gaus_sigma_A2_2017,sig_gaus_sigma_A2_2018,sig_gaus_sigma_B1_2017,sig_gaus_sigma_B1_2018,sig_gaus_sigma_B2_2017,sig_gaus_sigma_B2_2018,sig_gaus_sigma_C1_2017,sig_gaus_sigma_C1_2018,sig_gaus_sigma_C2_2017,sig_gaus_sigma_C2_2018,sig_m0_A1_2017,sig_m0_A1_2018,sig_m0_A2_2017,sig_m0_A2_2018,sig_m0_B1_2017,sig_m0_B1_2018,sig_m0_B2_2017,sig_m0_B2_2018,sig_m0_C1_2017,sig_m0_C1_2018,sig_m0_C2_2017,sig_m0_C2_2018,sig_n_A1_2017,sig_n_A1_2018,sig_n_A2_2017,sig_n_A2_2018,sig_n_B1_2017,sig_n_B1_2018,sig_n_B2_2017,sig_n_B2_2018,sig_n_C1_2017,sig_n_C1_2018,sig_n_C2_2017,sig_n_C2_2018,sig_sigma_A1_2017,sig_sigma_A1_2018,sig_sigma_A2_2017,sig_sigma_A2_2018,sig_sigma_B1_2017,sig_sigma_B1_2018,sig_sigma_B2_2017,sig_sigma_B2_2018,sig_sigma_C1_2017,sig_sigma_C1_2018,sig_sigma_C2_2017,sig_sigma_C2_2018,sqrtS)
+
+p.d.f.s
+-------
+RooCBShape::t3m_sig_CBshape_A1_2017[ m=m3m m0=sig_m0_A1_2017 sigma=sig_sigma_A1_2017 alpha=sig_alpha_A1_2017 n=sig_n_A1_2017 ] = 0.25634
+RooCBShape::t3m_sig_CBshape_A1_2018[ m=m3m m0=sig_m0_A1_2018 sigma=sig_sigma_A1_2018 alpha=sig_alpha_A1_2018 n=sig_n_A1_2018 ] = 0.25634
+RooCBShape::t3m_sig_CBshape_A2_2017[ m=m3m m0=sig_m0_A2_2017 sigma=sig_sigma_A2_2017 alpha=sig_alpha_A2_2017 n=sig_n_A2_2017 ] = 0.25634
+RooCBShape::t3m_sig_CBshape_A2_2018[ m=m3m m0=sig_m0_A2_2018 sigma=sig_sigma_A2_2018 alpha=sig_alpha_A2_2018 n=sig_n_A2_2018 ] = 0.25634
+RooCBShape::t3m_sig_CBshape_B1_2017[ m=m3m m0=sig_m0_B1_2017 sigma=sig_sigma_B1_2017 alpha=sig_alpha_B1_2017 n=sig_n_B1_2017 ] = 0.25634
+RooCBShape::t3m_sig_CBshape_B1_2018[ m=m3m m0=sig_m0_B1_2018 sigma=sig_sigma_B1_2018 alpha=sig_alpha_B1_2018 n=sig_n_B1_2018 ] = 0.25634
+RooCBShape::t3m_sig_CBshape_B2_2017[ m=m3m m0=sig_m0_B2_2017 sigma=sig_sigma_B2_2017 alpha=sig_alpha_B2_2017 n=sig_n_B2_2017 ] = 0.25634
+RooCBShape::t3m_sig_CBshape_B2_2018[ m=m3m m0=sig_m0_B2_2018 sigma=sig_sigma_B2_2018 alpha=sig_alpha_B2_2018 n=sig_n_B2_2018 ] = 0.25634
+RooCBShape::t3m_sig_CBshape_C1_2017[ m=m3m m0=sig_m0_C1_2017 sigma=sig_sigma_C1_2017 alpha=sig_alpha_C1_2017 n=sig_n_C1_2017 ] = 0.25634
+RooCBShape::t3m_sig_CBshape_C1_2018[ m=m3m m0=sig_m0_C1_2018 sigma=sig_sigma_C1_2018 alpha=sig_alpha_C1_2018 n=sig_n_C1_2018 ] = 0.25634
+RooCBShape::t3m_sig_CBshape_C2_2017[ m=m3m m0=sig_m0_C2_2017 sigma=sig_sigma_C2_2017 alpha=sig_alpha_C2_2017 n=sig_n_C2_2017 ] = 0.25634
+RooCBShape::t3m_sig_CBshape_C2_2018[ m=m3m m0=sig_m0_C2_2018 sigma=sig_sigma_C2_2018 alpha=sig_alpha_C2_2018 n=sig_n_C2_2018 ] = 0.25634
+RooGaussian::t3m_sig_GSshape_A1_2017[ x=m3m mean=sig_m0_A1_2017 sigma=sig_gaus_sigma_A1_2017 ] = 0.00431784
+RooGaussian::t3m_sig_GSshape_A1_2018[ x=m3m mean=sig_m0_A1_2018 sigma=sig_gaus_sigma_A1_2018 ] = 0.00431784
+RooGaussian::t3m_sig_GSshape_A2_2017[ x=m3m mean=sig_m0_A2_2017 sigma=sig_gaus_sigma_A2_2017 ] = 0.25634
+RooGaussian::t3m_sig_GSshape_A2_2018[ x=m3m mean=sig_m0_A2_2018 sigma=sig_gaus_sigma_A2_2018 ] = 0.25634
+RooGaussian::t3m_sig_GSshape_B1_2017[ x=m3m mean=sig_m0_B1_2017 sigma=sig_gaus_sigma_B1_2017 ] = 0.25634
+RooGaussian::t3m_sig_GSshape_B1_2018[ x=m3m mean=sig_m0_B1_2018 sigma=sig_gaus_sigma_B1_2018 ] = 0.25634
+RooGaussian::t3m_sig_GSshape_B2_2017[ x=m3m mean=sig_m0_B2_2017 sigma=sig_gaus_sigma_B2_2017 ] = 0.25634
+RooGaussian::t3m_sig_GSshape_B2_2018[ x=m3m mean=sig_m0_B2_2018 sigma=sig_gaus_sigma_B2_2018 ] = 0.25634
+RooGaussian::t3m_sig_GSshape_C1_2017[ x=m3m mean=sig_m0_C1_2017 sigma=sig_gaus_sigma_C1_2017 ] = 0.25634
+RooGaussian::t3m_sig_GSshape_C1_2018[ x=m3m mean=sig_m0_C1_2018 sigma=sig_gaus_sigma_C1_2018 ] = 0.25634
+RooGaussian::t3m_sig_GSshape_C2_2017[ x=m3m mean=sig_m0_C2_2017 sigma=sig_gaus_sigma_C2_2017 ] = 0.25634
+RooGaussian::t3m_sig_GSshape_C2_2018[ x=m3m mean=sig_m0_C2_2018 sigma=sig_gaus_sigma_C2_2018 ] = 0.25634
+
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(sighist): fit range of variable m3m expanded to nearest bin boundaries: [1.62,2] --> [1.62,2]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing dataset sighist
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(HLFactory_ws) changing name of dataset from  sighist to Sig_A1_2017
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(sighist): fit range of variable m3m expanded to nearest bin boundaries: [1.62,2] --> [1.62,2]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing dataset sighist
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(HLFactory_ws) changing name of dataset from  sighist to Sig_B1_2017
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(sighist): fit range of variable m3m expanded to nearest bin boundaries: [1.62,2] --> [1.62,2]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing dataset sighist
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(HLFactory_ws) changing name of dataset from  sighist to Sig_C1_2017
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(sighist): fit range of variable m3m expanded to nearest bin boundaries: [1.62,2] --> [1.62,2]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing dataset sighist
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(HLFactory_ws) changing name of dataset from  sighist to Sig_A2_2017
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(sighist): fit range of variable m3m expanded to nearest bin boundaries: [1.62,2] --> [1.62,2]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing dataset sighist
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(HLFactory_ws) changing name of dataset from  sighist to Sig_B2_2017
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(sighist): fit range of variable m3m expanded to nearest bin boundaries: [1.62,2] --> [1.62,2]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing dataset sighist
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(HLFactory_ws) changing name of dataset from  sighist to Sig_C2_2017
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(bkghist): fit range of variable m3m expanded to nearest bin boundaries: [1.62,2] --> [1.62,2]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing dataset bkghist
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(HLFactory_ws) changing name of dataset from  bkghist to Bkg_A1_2017
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(bkghist): fit range of variable m3m expanded to nearest bin boundaries: [1.62,2] --> [1.62,2]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing dataset bkghist
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(HLFactory_ws) changing name of dataset from  bkghist to Bkg_B1_2017
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(bkghist): fit range of variable m3m expanded to nearest bin boundaries: [1.62,2] --> [1.62,2]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing dataset bkghist
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(HLFactory_ws) changing name of dataset from  bkghist to Bkg_C1_2017
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(bkghist): fit range of variable m3m expanded to nearest bin boundaries: [1.62,2] --> [1.62,2]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing dataset bkghist
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(HLFactory_ws) changing name of dataset from  bkghist to Bkg_A2_2017
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(bkghist): fit range of variable m3m expanded to nearest bin boundaries: [1.62,2] --> [1.62,2]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing dataset bkghist
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(HLFactory_ws) changing name of dataset from  bkghist to Bkg_B2_2017
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(bkghist): fit range of variable m3m expanded to nearest bin boundaries: [1.62,2] --> [1.62,2]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing dataset bkghist
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(HLFactory_ws) changing name of dataset from  bkghist to Bkg_C2_2017
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'SB1' created with bounds [1.62,1.75]
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'SB2' created with bounds [1.8,2]
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'signal' created with bounds [1.7,1.85]
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fullRange' created with bounds [1.62,2]
+category  A1_2017
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_fit_A1_2017_Sig_A1_2017) constructing test statistic for sub-range named signal
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'NormalizationRangeForsignal' created with bounds [1.62,2]
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_SignalModel_fit_A1_2017_Sig_A1_2017' created with bounds [1.7,1.85]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_fit_A1_2017_Sig_A1_2017) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (t3m_sig_CBshape_A1_2017,t3m_sig_GSshape_A1_2017)
+ **********
+ **   13 **MIGRAD        3000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-2.26917 FROM MIGRAD    STATUS=INITIATE       44 CALLS          45 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_A1_2017   5.00000e-01   1.00000e-01   0.00000e+00   1.03310e-02
+   2  sig_alpha_A1_2017   1.00000e+00   1.00000e+00   0.00000e+00  -1.04331e-01
+   3  sig_gaus_sigma_A1_2017   1.00000e-02   5.00000e-03   0.00000e+00   2.62610e-02
+   4  sig_m0_A1_2017   1.77700e+00   1.20000e-02   0.00000e+00  -1.03742e-01
+   5  sig_n_A1_2017   1.50000e+01   3.00000e+00   0.00000e+00  -7.91327e-04
+   6  sig_sigma_A1_2017   1.14921e-02   1.00000e-02  -2.35588e-01  -2.29677e-02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -2.5381e-03  1.3373e-01  3.8461e-01  1.0118e+00  1.5153e+00  2.9571e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 0.005495 TO DIAGONAL.
+ FCN=-2.27489 FROM HESSE     STATUS=NOT POSDEF     40 CALLS         151 TOTAL
+                     EDM=0.000802534    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_A1_2017   3.29849e-01   5.09871e-01   3.90381e-03   4.99178e-04
+   2  sig_alpha_A1_2017   1.24046e+00   7.95675e+00   1.14167e-03  -6.86899e-03
+   3  sig_gaus_sigma_A1_2017   9.16490e-03   5.24748e-02   7.22887e-04  -1.18364e-02
+   4  sig_m0_A1_2017   1.77686e+00   1.40692e-02   2.46330e-04   5.78682e-03
+   5  sig_n_A1_2017   6.18810e+00   1.64408e+01   1.30800e-02  -1.42907e-04
+   6  sig_sigma_A1_2017   1.43661e-02   8.32705e-02   8.83714e-04  -1.82778e-03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-2.27513 FROM MIGRAD    STATUS=CONVERGED     248 CALLS         249 TOTAL
+                     EDM=6.80922e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_A1_2017   2.05955e-01   8.87309e-01   3.55053e-03  -3.27331e-05
+   2  sig_alpha_A1_2017   1.10668e+00   6.03011e+00   1.22333e-03   9.04851e-04
+   3  sig_gaus_sigma_A1_2017   9.79394e-03   3.02201e-02   6.17555e-04   2.14396e-03
+   4  sig_m0_A1_2017   1.77680e+00   1.43416e-02   2.47559e-04  -5.59906e-03
+   5  sig_n_A1_2017   5.78549e+00   1.61977e+01   2.26874e-02   1.62838e-04
+   6  sig_sigma_A1_2017   1.58280e-02   9.13605e-02   1.27546e-03  -3.26421e-04
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  6    ERR DEF=0.5
+  8.392e+01  4.288e+02 -3.101e-01 -3.771e-02 -8.605e+03 -1.316e+00 
+  4.288e+02  2.539e+03 -1.538e+00 -2.655e-01 -5.456e+04 -6.565e+00 
+ -3.101e-01 -1.538e+00  1.328e-03  1.472e-04  2.966e+01  4.569e-03 
+ -3.771e-02 -2.655e-01  1.472e-04  2.097e-04  5.592e+00  4.041e-04 
+ -8.605e+03 -5.456e+04  2.966e+01  5.592e+00  1.250e+06  1.350e+02 
+ -1.316e+00 -6.565e+00  4.569e-03  4.041e-04  1.350e+02  2.352e-02 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6
+        1  0.99093   1.000  0.929 -0.929 -0.284 -0.840 -0.937
+        2  0.99344   0.929  1.000 -0.837 -0.364 -0.968 -0.850
+        3  0.94587  -0.929 -0.837  1.000  0.279  0.728  0.818
+        4  0.44731  -0.284 -0.364  0.279  1.000  0.345  0.182
+        5  0.98527  -0.840 -0.968  0.728  0.345  1.000  0.787
+        6  0.95940  -0.937 -0.850  0.818  0.182  0.787  1.000
+ **********
+ **   18 **HESSE        3000
+ **********
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -2.6814e-03  8.8692e-02  4.4039e-01  1.0009e+00  1.4941e+00  2.9786e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 0.005660 TO DIAGONAL.
+ FCN=-2.27513 FROM HESSE     STATUS=NOT POSDEF     40 CALLS         289 TOTAL
+                     EDM=0.000150124    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE     INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_A1_2017   2.05955e-01   6.06919e-01   7.10105e-04  -6.28695e-01
+   2  sig_alpha_A1_2017   1.10668e+00   7.70432e+00   2.44665e-04   2.23185e-01
+   3  sig_gaus_sigma_A1_2017   9.79394e-03   3.22532e-02   1.23511e-04  -7.38982e-01
+   4  sig_m0_A1_2017   1.77680e+00   1.54557e-02   4.95118e-05  -5.34239e-02
+   5  sig_n_A1_2017   5.78549e+00   1.89977e+01   4.53748e-03  -6.61499e-01
+   6  sig_sigma_A1_2017   1.58280e-02   8.10620e-02   2.55092e-04  -7.52465e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  6    ERR DEF=0.5
+  1.235e+02  7.692e+02 -4.303e-01 -7.832e-02 -1.716e+04 -1.914e+00 
+  7.692e+02  5.275e+03 -2.603e+00 -5.812e-01 -1.220e+05 -1.177e+01 
+ -4.303e-01 -2.603e+00  1.686e-03  2.756e-04  5.664e+01  6.372e-03 
+ -7.832e-02 -5.812e-01  2.756e-04  2.444e-04  1.330e+01  1.031e-03 
+ -1.716e+04 -1.220e+05  5.664e+01  1.330e+01  2.902e+06  2.662e+02 
+ -1.914e+00 -1.177e+01  6.372e-03  1.031e-03  2.662e+02  3.248e-02 
+ERR MATRIX NOT POS-DEF
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6
+        1  0.99389   1.000  0.953 -0.943 -0.451 -0.906 -0.955
+        2  0.99687   0.953  1.000 -0.873 -0.512 -0.986 -0.899
+        3  0.95786  -0.943 -0.873  1.000  0.429  0.810  0.861
+        4  0.56333  -0.451 -0.512  0.429  1.000  0.499  0.366
+        5  0.99370  -0.906 -0.986  0.810  0.499  1.000  0.867
+        6  0.97094  -0.955 -0.899  0.861  0.366  0.867  1.000
+ ERR MATRIX NOT POS-DEF
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SignalModel_fit_A1_2017) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ **********
+ **   23 **HESSE        3000
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-0.00218455 FROM HESSE     STATUS=OK             56 CALLS         345 TOTAL
+                     EDM=4.26068e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_A1_2017   2.05955e-01   8.19867e-01   1.44861e-02  -6.28695e-01
+   2  sig_alpha_A1_2017   1.10668e+00   6.89078e+00   4.99117e-03   2.23185e-01
+   3  sig_gaus_sigma_A1_2017   9.79394e-03   5.48881e-02   2.51963e-03  -7.38982e-01
+   4  sig_m0_A1_2017   1.77680e+00   8.58356e-02   1.01004e-03  -5.34239e-02
+   5  sig_n_A1_2017   5.78549e+00   2.67615e+01   9.25646e-02  -6.61499e-01
+   6  sig_sigma_A1_2017   1.58280e-02   5.81824e-02   5.20389e-03  -7.52465e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  6    ERR DEF=0.5
+  2.544e+04  7.636e+04 -1.060e+02 -3.598e+00 -8.389e+05 -3.876e+02 
+  7.636e+04  3.662e+05 -3.164e+02 -4.995e+01 -5.971e+06 -9.948e+02 
+ -1.060e+02 -3.164e+02  6.217e-01  3.316e-02  2.843e+03  1.316e+00 
+ -3.598e+00 -4.995e+01  3.316e-02  1.957e-01  6.747e+02 -1.418e-01 
+ -8.389e+05 -5.971e+06  2.843e+03  6.747e+02  1.572e+08  1.274e+04 
+ -3.876e+02 -9.948e+02  1.316e+00 -1.418e-01  1.274e+04  8.804e+00 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6
+        1  0.96857   1.000  0.791 -0.843 -0.051 -0.419 -0.819
+        2  0.95193   0.791  1.000 -0.663 -0.187 -0.787 -0.554
+        3  0.87527  -0.843 -0.663  1.000  0.095  0.288  0.562
+        4  0.32745  -0.051 -0.187  0.095  1.000  0.122 -0.108
+        5  0.87945  -0.419 -0.787  0.288  0.122  1.000  0.342
+        6  0.88604  -0.819 -0.554  0.562 -0.108  0.342  1.000
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_A1_2017_Sig_A1_2017) constructing test statistic for sub-range named signal
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_SignalModel_A1_2017_Sig_A1_2017' created with bounds [1.7,1.85]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_A1_2017_Sig_A1_2017) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (CB_final_A1_2017,GS_final_A1_2017)
+ **********
+ **   13 **MIGRAD        3000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-2.27513 FROM MIGRAD    STATUS=INITIATE       16 CALLS          17 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_A1_2017   2.05955e-01   1.38050e+00   1.56884e+00  -3.28274e-05
+   2  m0_fixed_A1_2017   1.77680e+00   constant   
+   3  sig_alpha_A1_2017   1.10668e+00   1.75800e+01   1.56884e+00   9.00222e-04
+   4  sig_gaus_sigma_A1_2017   9.79394e-03   6.60137e-02   1.56884e+00   2.14299e-03
+   5  sig_n_A1_2017   5.78549e+00   4.25714e+01   1.56884e+00   1.61676e-04
+   6  sigma_cb_fixed_A1_2017   1.58280e-02   constant   
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-2.27513 FROM MIGRAD    STATUS=CONVERGED      51 CALLS          52 TOTAL
+                     EDM=9.20375e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_A1_2017   2.06025e-01   5.98943e-01   3.50095e-03   2.40363e-04
+   2  m0_fixed_A1_2017   1.77680e+00   constant   
+   3  sig_alpha_A1_2017   1.10320e+00   5.16389e+00   1.35918e-03  -8.76820e-04
+   4  sig_gaus_sigma_A1_2017   9.78625e-03   1.75577e-02   6.13615e-04   8.09489e-04
+   5  sig_n_A1_2017   5.50410e+00   2.00478e+01   1.85931e-02   1.84696e-05
+   6  sigma_cb_fixed_A1_2017   1.58280e-02   constant   
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  4    ERR DEF=0.5
+  8.118e+00  3.198e+01 -4.641e-02 -2.580e+02 
+  3.198e+01  2.946e+02 -1.529e-01 -5.483e+03 
+ -4.641e-02 -1.529e-01  4.106e-04  5.461e-01 
+ -2.580e+02 -5.483e+03  5.461e-01  1.551e+05 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      3      4      5
+        1  0.90236   1.000  0.654 -0.804 -0.230
+        3  0.94269   0.654  1.000 -0.440 -0.811
+        4  0.81273  -0.804 -0.440  1.000  0.068
+        5  0.90364  -0.230 -0.811  0.068  1.000
+ **********
+ **   18 **HESSE        3000
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-2.27513 FROM HESSE     STATUS=OK             23 CALLS          76 TOTAL
+                     EDM=1.13466e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_A1_2017   2.06025e-01   6.02986e-01   7.00189e-04  -6.28522e-01
+   2  m0_fixed_A1_2017   1.77680e+00   constant   
+   3  sig_alpha_A1_2017   1.10320e+00   5.61955e+00   2.71835e-04   2.22470e-01
+   4  sig_gaus_sigma_A1_2017   9.78625e-03   1.77436e-02   1.22723e-04  -7.39328e-01
+   5  sig_n_A1_2017   5.50410e+00   1.51813e+01   7.43723e-04  -6.85500e-01
+   6  sigma_cb_fixed_A1_2017   1.58280e-02   constant   
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  4    ERR DEF=0.5
+  8.506e+00  3.544e+01 -4.846e-02 -3.245e+02 
+  3.544e+01  3.528e+02 -1.640e-01 -6.905e+03 
+ -4.846e-02 -1.640e-01  4.232e-04  6.797e-01 
+ -3.245e+02 -6.905e+03  6.797e-01  1.913e+05 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      3      4      5
+        1  0.90703   1.000  0.647 -0.808 -0.254
+        3  0.95237   0.647  1.000 -0.425 -0.840
+        4  0.81890  -0.808 -0.425  1.000  0.076
+        5  0.92255  -0.254 -0.840  0.076  1.000
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SignalModel_A1_2017) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ **********
+ **   23 **HESSE        3000
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-0.00218455 FROM HESSE     STATUS=OK             33 CALLS         110 TOTAL
+                     EDM=3.39688e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_A1_2017   2.06025e-01   8.81696e-01   1.42839e-02  -6.28522e-01
+   2  m0_fixed_A1_2017   1.77680e+00   constant   
+   3  sig_alpha_A1_2017   1.10320e+00   6.94697e+00   5.54544e-03   2.22470e-01
+   4  sig_gaus_sigma_A1_2017   9.78625e-03   5.45644e-02   2.50355e-03  -7.39328e-01
+   5  sig_n_A1_2017   5.50410e+00   1.57958e+01   1.51719e-02  -6.85500e-01
+   6  sigma_cb_fixed_A1_2017   1.58280e-02   constant   
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  4    ERR DEF=0.5
+  7.728e+03  2.782e+04 -4.465e+01 -1.709e+05 
+  2.782e+04  2.644e+05 -1.320e+02 -4.884e+06 
+ -4.465e+01 -1.320e+02  4.086e-01  9.845e+01 
+ -1.709e+05 -4.884e+06  9.845e+01  1.437e+08 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      3      4      5
+        1  0.89285   1.000  0.615 -0.795 -0.162
+        3  0.93356   0.615  1.000 -0.402 -0.792
+        4  0.80335  -0.795 -0.402  1.000  0.013
+        5  0.89415  -0.162 -0.792  0.013  1.000
+[#0] ERROR:Fitting -- RooAbsPdf::fitTo(SignalModel_A1_2017) ERROR: Cannot apply sum-of-weights correction to covariance matrix: correction matrix calculated with weight-squared is singular
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooRealVar::m0_fixed_A1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooRealVar::sigma_cb_fixed_A1_2017
+ m0_fixed_A1_2017 sigma_cb_fixed_A1_2017 sig_gaus_sigma_A1_2017 sig_alpha_A1_2017 sig_n_A1_2017[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooAddPdf::SignalModel_A1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooCBShape::CB_final_A1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooGaussian::GS_final_A1_2017
+category  B1_2017
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_fit_B1_2017_Sig_B1_2017) constructing test statistic for sub-range named signal
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_SignalModel_fit_B1_2017_Sig_B1_2017' created with bounds [1.7,1.85]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_fit_B1_2017_Sig_B1_2017) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (t3m_sig_CBshape_B1_2017,t3m_sig_GSshape_B1_2017)
+ **********
+ **   13 **MIGRAD        3000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-8.37137 FROM MIGRAD    STATUS=INITIATE       24 CALLS          25 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_B1_2017   5.00000e-01   1.00000e-01   2.01358e-01   1.16745e-01
+   2  sig_alpha_B1_2017   1.00000e+00   4.00000e+00   2.01624e-01  -3.27552e+00
+   3  sig_gaus_sigma_B1_2017   2.00000e-02   1.00000e-02   2.57889e-01   9.23630e-01
+   4  sig_m0_B1_2017   1.77700e+00   1.20000e-02   2.01624e-01   2.79398e-01
+   5  sig_n_B1_2017   2.00000e+00   5.00000e-01   2.05758e-01  -4.55756e-02
+   6  sig_sigma_B1_2017   2.00000e-02   5.00000e-03   2.05758e-01   3.89313e-01
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-8.49525 FROM MIGRAD    STATUS=CONVERGED     150 CALLS         151 TOTAL
+                     EDM=0.000234274    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_B1_2017   1.88212e-01   5.35051e-01   6.17910e-03  -7.25432e-04
+   2  sig_alpha_B1_2017   1.16557e+00   6.99003e+00   3.34041e-04   1.44717e-02
+   3  sig_gaus_sigma_B1_2017   1.81800e-02   1.57199e-02   4.86799e-04   3.33848e-02
+   4  sig_m0_B1_2017   1.77634e+00   1.15393e-02   3.41826e-04   4.23759e-02
+   5  sig_n_B1_2017   2.27188e+00   3.82711e+00   1.55895e-02  -3.49795e-04
+   6  sig_sigma_B1_2017   1.26366e-02   3.46639e-02   2.98898e-03   2.36499e-03
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  6    ERR DEF=0.5
+  1.039e+01 -6.350e+00  3.011e-02  1.603e-02  1.948e+02  1.086e-01 
+ -6.350e+00  5.100e+01  2.898e-02 -2.247e-02 -3.561e+02 -2.651e-01 
+  3.011e-02  2.898e-02  2.622e-04  1.988e-05  3.785e-01 -1.350e-04 
+  1.603e-02 -2.247e-02  1.988e-05  1.348e-04  2.983e-01  1.895e-04 
+  1.948e+02 -3.561e+02  3.785e-01  2.983e-01  5.397e+03  3.359e+00 
+  1.086e-01 -2.651e-01 -1.350e-04  1.895e-04  3.359e+00  3.989e-03 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6
+        1  0.92977   1.000 -0.276  0.577  0.428  0.823  0.533
+        2  0.89037  -0.276  1.000  0.251 -0.271 -0.679 -0.588
+        3  0.83627   0.577  0.251  1.000  0.106  0.318 -0.132
+        4  0.52096   0.428 -0.271  0.106  1.000  0.350  0.258
+        5  0.96286   0.823 -0.679  0.318  0.350  1.000  0.724
+        6  0.83884   0.533 -0.588 -0.132  0.258  0.724  1.000
+ **********
+ **   18 **HESSE        3000
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-8.49525 FROM HESSE     STATUS=OK             40 CALLS         191 TOTAL
+                     EDM=0.000253695    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_B1_2017   1.88212e-01   7.67973e-01   1.23582e-03  -6.73309e-01
+   2  sig_alpha_B1_2017   1.16557e+00   7.66001e+00   6.68083e-05   5.83117e-02
+   3  sig_gaus_sigma_B1_2017   1.81800e-02   1.58967e-02   9.73597e-05  -6.89821e-01
+   4  sig_m0_B1_2017   1.77634e+00   1.18260e-02   6.83652e-05  -6.10847e-02
+   5  sig_n_B1_2017   2.27188e+00   2.60956e+00   3.11790e-03  -9.13749e-02
+   6  sig_sigma_B1_2017   1.26366e-02   3.83289e-02   5.97796e-04  -5.17300e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  6    ERR DEF=0.5
+  1.298e+01 -1.142e+01  3.389e-02  2.022e-02  2.657e+02  1.579e-01 
+ -1.142e+01  6.180e+01  2.229e-02 -3.099e-02 -4.996e+02 -3.659e-01 
+  3.389e-02  2.229e-02  2.685e-04  2.533e-05  4.795e-01 -6.580e-05 
+  2.022e-02 -3.099e-02  2.533e-05  1.417e-04  4.152e-01  2.730e-04 
+  2.657e+02 -4.996e+02  4.795e-01  4.152e-01  7.361e+03  4.724e+00 
+  1.579e-01 -3.659e-01 -6.580e-05  2.730e-04  4.724e+00  4.935e-03 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6
+        1  0.94418   1.000 -0.403  0.574  0.472  0.860  0.624
+        2  0.91049  -0.403  1.000  0.173 -0.331 -0.741 -0.663
+        3  0.84049   0.574  0.173  1.000  0.130  0.341 -0.057
+        4  0.55384   0.472 -0.331  0.130  1.000  0.407  0.326
+        5  0.97290   0.860 -0.741  0.341  0.407  1.000  0.784
+        6  0.87204   0.624 -0.663 -0.057  0.326  0.784  1.000
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SignalModel_fit_B1_2017) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ **********
+ **   23 **HESSE        3000
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-0.00795547 FROM HESSE     STATUS=OK             56 CALLS         247 TOTAL
+                     EDM=2.05187e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_B1_2017   1.88212e-01   8.39373e-01   2.52107e-02  -6.73309e-01
+   2  sig_alpha_B1_2017   1.16557e+00   2.07063e+01   1.36289e-03   5.83117e-02
+   3  sig_gaus_sigma_B1_2017   1.81800e-02   5.29320e-02   1.98614e-03  -6.89821e-01
+   4  sig_m0_B1_2017   1.77634e+00   6.55124e-02   1.39465e-03  -6.10847e-02
+   5  sig_n_B1_2017   2.27188e+00   3.63097e+00   6.36052e-02  -9.13749e-02
+   6  sig_sigma_B1_2017   1.26366e-02   3.57122e-02   1.21950e-02  -5.17300e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  6    ERR DEF=0.5
+  7.189e+03  2.756e+03  3.004e+01  1.076e+01  8.737e+04  2.056e+01 
+  2.756e+03  3.576e+04  4.704e+01 -8.206e+00 -1.175e+05 -1.103e+02 
+  3.004e+01  4.704e+01  2.984e-01  1.915e-02  2.617e+02 -3.126e-01 
+  1.076e+01 -8.206e+00  1.915e-02  1.334e-01  1.204e+02  4.113e-02 
+  8.737e+04 -1.175e+05  2.617e+02  1.204e+02  2.267e+06  1.068e+03 
+  2.056e+01 -1.103e+02 -3.126e-01  4.113e-02  1.068e+03  2.621e+00 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6
+        1  0.88730   1.000  0.172  0.648  0.347  0.684  0.150
+        2  0.82737   0.172  1.000  0.455 -0.119 -0.413 -0.360
+        3  0.84685   0.648  0.455  1.000  0.096  0.318 -0.353
+        4  0.46217   0.347 -0.119  0.096  1.000  0.219  0.070
+        5  0.90581   0.684 -0.413  0.318  0.219  1.000  0.438
+        6  0.71521   0.150 -0.360 -0.353  0.070  0.438  1.000
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_B1_2017_Sig_B1_2017) constructing test statistic for sub-range named signal
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_SignalModel_B1_2017_Sig_B1_2017' created with bounds [1.7,1.85]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_B1_2017_Sig_B1_2017) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (CB_final_B1_2017,GS_final_B1_2017)
+ **********
+ **   13 **MIGRAD        3000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-8.49525 FROM MIGRAD    STATUS=INITIATE       14 CALLS          15 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_B1_2017   1.88212e-01   9.66469e-01   1.56884e+00  -7.24697e-04
+   2  m0_fixed_B1_2017   1.77634e+00   constant   
+   3  sig_alpha_B1_2017   1.16557e+00   6.17606e+00   3.14546e-01   1.44367e-02
+   4  sig_gaus_sigma_B1_2017   1.81800e-02   1.03763e-02   2.80657e-01   3.33800e-02
+   5  sig_n_B1_2017   2.27188e+00   3.04404e+00   1.56884e+00  -3.52273e-04
+   6  sigma_cb_fixed_B1_2017   1.26366e-02   constant   
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-8.49529 FROM MIGRAD    STATUS=CONVERGED      49 CALLS          50 TOTAL
+                     EDM=7.90093e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_B1_2017   1.90979e-01   5.31298e-01   6.28796e-03   5.08778e-04
+   2  m0_fixed_B1_2017   1.77634e+00   constant   
+   3  sig_alpha_B1_2017   1.15750e+00   5.68780e+00   3.37219e-04   2.95169e-02
+   4  sig_gaus_sigma_B1_2017   1.81080e-02   1.45710e-02   4.76734e-04  -4.86926e-03
+   5  sig_n_B1_2017   2.33079e+00   3.58627e+00   1.65019e-02  -3.83609e-05
+   6  sigma_cb_fixed_B1_2017   1.26366e-02   constant   
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  4    ERR DEF=0.5
+  5.810e+00  5.098e-01  2.699e-02  8.913e+01 
+  5.098e-01  3.327e+01  1.586e-02 -1.550e+02 
+  2.699e-02  1.586e-02  2.233e-04  4.333e-01 
+  8.913e+01 -1.550e+02  4.333e-01  2.668e+03 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      3      4      5
+        1  0.87132   1.000  0.037  0.749  0.716
+        3  0.83172   0.037  1.000  0.184 -0.520
+        4  0.80687   0.749  0.184  1.000  0.561
+        5  0.91708   0.716 -0.520  0.561  1.000
+ **********
+ **   18 **HESSE        3000
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-8.49529 FROM HESSE     STATUS=OK             23 CALLS          74 TOTAL
+                     EDM=8.26754e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_B1_2017   1.90979e-01   5.20764e-01   1.25759e-03  -6.66249e-01
+   2  m0_fixed_B1_2017   1.77634e+00   constant   
+   3  sig_alpha_B1_2017   1.15750e+00   5.84264e+00   6.74437e-05   5.79072e-02
+   4  sig_gaus_sigma_B1_2017   1.81080e-02   1.49035e-02   9.53467e-05  -6.91690e-01
+   5  sig_n_B1_2017   2.33079e+00   2.86740e+00   6.60077e-04  -6.77378e-02
+   6  sigma_cb_fixed_B1_2017   1.26366e-02   constant   
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  4    ERR DEF=0.5
+  6.316e+00 -2.874e-01  2.934e-02  1.028e+02 
+ -2.874e-01  3.516e+01  1.216e-02 -1.801e+02 
+  2.934e-02  1.216e-02  2.342e-04  4.964e-01 
+  1.028e+02 -1.801e+02  4.964e-01  3.053e+03 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      3      4      5
+        1  0.88233   1.000 -0.019  0.763  0.740
+        3  0.84164  -0.019  1.000  0.134 -0.550
+        4  0.81686   0.763  0.134  1.000  0.587
+        5  0.92791   0.740 -0.550  0.587  1.000
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SignalModel_B1_2017) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ **********
+ **   23 **HESSE        3000
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-0.00795553 FROM HESSE     STATUS=OK             33 CALLS         108 TOTAL
+                     EDM=8.31111e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_B1_2017   1.90979e-01   5.95332e-01   2.56549e-02  -6.66249e-01
+   2  m0_fixed_B1_2017   1.77634e+00   constant   
+   3  sig_alpha_B1_2017   1.15750e+00   2.58992e+01   1.37585e-03   5.79072e-02
+   4  sig_gaus_sigma_B1_2017   1.81080e-02   5.85171e-02   1.94507e-03  -6.91690e-01
+   5  sig_n_B1_2017   2.33079e+00   3.19198e+00   1.34656e-02  -6.77378e-02
+   6  sigma_cb_fixed_B1_2017   1.26366e-02   constant   
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  4    ERR DEF=0.5
+  7.536e+03  9.934e+02  3.598e+01  1.137e+05 
+  9.934e+02  3.173e+04  1.880e+01 -1.316e+05 
+  3.598e+01  1.880e+01  2.764e-01  5.655e+02 
+  1.137e+05 -1.316e+05  5.655e+02  2.913e+06 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      3      4      5
+        1  0.89359   1.000  0.064  0.788  0.767
+        3  0.80940   0.064  1.000  0.201 -0.433
+        4  0.83551   0.788  0.201  1.000  0.630
+        5  0.92146   0.767 -0.433  0.630  1.000
+[#0] ERROR:Fitting -- RooAbsPdf::fitTo(SignalModel_B1_2017) ERROR: Cannot apply sum-of-weights correction to covariance matrix: correction matrix calculated with weight-squared is singular
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooRealVar::m0_fixed_B1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooRealVar::sigma_cb_fixed_B1_2017
+ m0_fixed_B1_2017 sigma_cb_fixed_B1_2017 sig_gaus_sigma_B1_2017 sig_alpha_B1_2017 sig_n_B1_2017[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooAddPdf::SignalModel_B1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooCBShape::CB_final_B1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooGaussian::GS_final_B1_2017
+category  C1_2017
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_fit_C1_2017_Sig_C1_2017) constructing test statistic for sub-range named signal
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_SignalModel_fit_C1_2017_Sig_C1_2017' created with bounds [1.7,1.85]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_fit_C1_2017_Sig_C1_2017) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (t3m_sig_CBshape_C1_2017,t3m_sig_GSshape_C1_2017)
+ **********
+ **   13 **MIGRAD        3000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-1.99627 FROM MIGRAD    STATUS=INITIATE       22 CALLS          23 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_C1_2017   5.00000e-01   1.00000e-01   2.01358e-01  -2.41166e-03
+   2  sig_alpha_C1_2017   1.00000e+00   4.00000e+00   2.01624e-01   1.16167e-01
+   3  sig_gaus_sigma_C1_2017   2.00000e-02   1.00000e-02   2.57889e-01  -2.96492e-01
+   4  sig_m0_C1_2017   1.77700e+00   1.20000e-02   2.01624e-01  -1.83721e-01
+   5  sig_n_C1_2017   2.00000e+00   5.00000e-01   2.05758e-01  -5.20186e-04
+   6  sig_sigma_C1_2017   2.00000e-02   5.00000e-03   2.05758e-01  -1.32030e-01
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -5.1252e-02  1.1547e-01  4.9988e-01  7.2904e-01  1.5183e+00  3.1885e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 0.054440 TO DIAGONAL.
+ FCN=-2.02192 FROM MIGRAD    STATUS=CONVERGED     129 CALLS         130 TOTAL
+                     EDM=0.000190736    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_C1_2017   3.49755e-01   6.38148e-01   9.58138e-03   5.46158e-04
+   2  sig_alpha_C1_2017   1.28482e+00   2.81757e+01   3.15548e-04  -4.31268e-03
+   3  sig_gaus_sigma_C1_2017   2.44277e-02   7.37614e-02   8.41251e-04   1.59059e-03
+   4  sig_m0_C1_2017   1.77597e+00   4.40117e-02   5.10709e-04  -1.08129e-02
+   5  sig_n_C1_2017   3.51071e+00   3.22675e+00   6.91324e-02  -9.08764e-05
+   6  sig_sigma_C1_2017   2.64804e-02   2.89244e-02   2.82117e-03   1.17076e-03
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  6    ERR DEF=0.5
+  1.886e+03  1.992e+03  9.098e+00  1.727e+00  1.185e+04 -3.627e+01 
+  1.992e+03  2.205e+03  1.006e+01  1.782e+00  1.182e+04 -3.913e+01 
+  9.098e+00  1.006e+01  5.170e-02  8.605e-03  5.493e+01 -1.908e-01 
+  1.727e+00  1.782e+00  8.605e-03  2.445e-03  1.032e+01 -3.432e-02 
+  1.185e+04  1.182e+04  5.493e+01  1.032e+01  1.008e+05 -2.217e+02 
+ -3.627e+01 -3.913e+01 -1.908e-01 -3.432e-02 -2.217e+02  7.353e-01 
+ERR MATRIX NOT POS-DEF
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6
+        1  0.99459   1.000  0.977  0.921  0.804  0.860 -0.974
+        2  0.98737   0.977  1.000  0.942  0.767  0.793 -0.972
+        3  0.99065   0.921  0.942  1.000  0.765  0.761 -0.979
+        4  0.83392   0.804  0.767  0.765  1.000  0.658 -0.809
+        5  0.89708   0.860  0.793  0.761  0.658  1.000 -0.815
+        6  0.99658  -0.974 -0.972 -0.979 -0.809 -0.815  1.000
+ ERR MATRIX NOT POS-DEF
+ **********
+ **   18 **HESSE        3000
+ **********
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -4.2132e-02  9.5188e-02  4.8156e-01  7.2365e-01  1.5311e+00  3.2106e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 0.045343 TO DIAGONAL.
+ FCN=-2.02192 FROM HESSE     STATUS=NOT POSDEF     40 CALLS         170 TOTAL
+                     EDM=0.000214064    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE     INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_C1_2017   3.49755e-01   5.10308e-01   1.91628e-03  -3.05206e-01
+   2  sig_alpha_C1_2017   1.28482e+00   2.81758e+01   6.31096e-05   6.42852e-02
+   3  sig_gaus_sigma_C1_2017   2.44277e-02   6.85345e-02   1.68250e-04  -5.36867e-01
+   4  sig_m0_C1_2017   1.77597e+00   4.33484e-02   1.02142e-04  -6.72833e-02
+   5  sig_n_C1_2017   3.51071e+00   3.23433e+00   1.38265e-02   4.16197e-01
+   6  sig_sigma_C1_2017   2.64804e-02   2.76149e-02   5.64234e-04   5.92493e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  6    ERR DEF=0.5
+  1.762e+03  1.919e+03  9.024e+00  1.611e+00  1.109e+04 -3.492e+01 
+  1.919e+03  2.205e+03  1.044e+01  1.719e+00  1.122e+04 -3.920e+01 
+  9.024e+00  1.044e+01  5.613e-02  8.622e-03  5.330e+01 -1.993e-01 
+  1.611e+00  1.719e+00  8.622e-03  2.350e-03  9.520e+00 -3.325e-02 
+  1.109e+04  1.122e+04  5.330e+01  9.520e+00  9.806e+04 -2.108e+02 
+ -3.492e+01 -3.920e+01 -1.993e-01 -3.325e-02 -2.108e+02  7.398e-01 
+ERR MATRIX NOT POS-DEF
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6
+        1  0.99416   1.000  0.973  0.908  0.792  0.844 -0.967
+        2  0.98726   0.973  1.000  0.938  0.755  0.763 -0.970
+        3  0.99132   0.908  0.938  1.000  0.751  0.718 -0.978
+        4  0.82484   0.792  0.755  0.751  1.000  0.627 -0.797
+        5  0.89273   0.844  0.763  0.718  0.627  1.000 -0.783
+        6  0.99657  -0.967 -0.970 -0.978 -0.797 -0.783  1.000
+ ERR MATRIX NOT POS-DEF
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SignalModel_fit_C1_2017) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ **********
+ **   23 **HESSE        3000
+ **********
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -8.8865e-02  2.1122e-01  5.6500e-01  7.6051e-01  1.4464e+00  3.1057e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 0.091971 TO DIAGONAL.
+ FCN=-0.00191116 FROM HESSE     STATUS=NOT POSDEF     56 CALLS         226 TOTAL
+                     EDM=1.87755e-07    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE     INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_C1_2017   3.49755e-01   7.78068e-01   3.90920e-02  -3.05206e-01
+   2  sig_alpha_C1_2017   1.28482e+00   2.72121e+01   1.28744e-03   6.42852e-02
+   3  sig_gaus_sigma_C1_2017   2.44277e-02   8.23622e-02   3.43230e-03  -5.36867e-01
+   4  sig_m0_C1_2017   1.77597e+00   7.22001e-02   2.08369e-03  -6.72833e-02
+   5  sig_n_C1_2017   3.51071e+00   2.85359e+00   5.00000e-01   4.16197e-01
+   6  sig_sigma_C1_2017   2.64804e-02   3.66813e-02   1.15104e-02   5.92493e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  6    ERR DEF=0.5
+  1.980e+06  2.016e+06  9.990e+03  2.019e+03  8.905e+06 -3.987e+04 
+  2.016e+06  2.136e+06  1.044e+04  2.003e+03  8.591e+06 -4.099e+04 
+  9.990e+03  1.044e+04  5.535e+01  1.030e+01  4.393e+04 -2.106e+02 
+  2.019e+03  2.003e+03  1.030e+01  2.922e+00  8.593e+03 -4.138e+01 
+  8.905e+06  8.591e+06  4.393e+04  8.593e+03  6.990e+07 -1.757e+05 
+ -3.987e+04 -4.099e+04 -2.106e+02 -4.138e+01 -1.757e+05  8.265e+02 
+ERR MATRIX NOT POS-DEF
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6
+        1  0.99486   1.000  0.980  0.954  0.840  0.757 -0.986
+        2  0.98685   0.980  1.000  0.960  0.802  0.703 -0.976
+        3  0.99098   0.954  0.960  1.000  0.810  0.706 -0.985
+        4  0.85997   0.840  0.802  0.810  1.000  0.601 -0.842
+        5  0.79754   0.757  0.703  0.706  0.601  1.000 -0.731
+        6  0.99689  -0.986 -0.976 -0.985 -0.842 -0.731  1.000
+ ERR MATRIX NOT POS-DEF
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_C1_2017_Sig_C1_2017) constructing test statistic for sub-range named signal
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_SignalModel_C1_2017_Sig_C1_2017' created with bounds [1.7,1.85]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_C1_2017_Sig_C1_2017) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (CB_final_C1_2017,GS_final_C1_2017)
+ **********
+ **   13 **MIGRAD        3000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-2.02192 FROM MIGRAD    STATUS=INITIATE       20 CALLS          21 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_C1_2017   3.49755e-01   1.31873e+00   1.56884e+00   5.46145e-04
+   2  m0_fixed_C1_2017   1.77597e+00   constant   
+   3  sig_alpha_C1_2017   1.28482e+00   7.65727e+01   1.56884e+00  -4.33468e-03
+   4  sig_gaus_sigma_C1_2017   2.44277e-02   1.74863e-01   1.56884e+00   1.58976e-03
+   5  sig_n_C1_2017   3.51071e+00   7.21699e+00   1.56884e+00  -9.14189e-05
+   6  sigma_cb_fixed_C1_2017   2.64804e-02   constant   
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-2.02193 FROM MIGRAD    STATUS=CONVERGED      55 CALLS          56 TOTAL
+                     EDM=4.5557e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_C1_2017   3.36211e-01   6.12135e-01   1.06469e-02  -4.68299e-05
+   2  m0_fixed_C1_2017   1.77597e+00   constant   
+   3  sig_alpha_C1_2017   1.29184e+00   1.17134e+01   4.19671e-04   7.58457e-03
+   4  sig_gaus_sigma_C1_2017   2.44069e-02   6.11120e-02   8.12877e-04  -3.67558e-03
+   5  sig_n_C1_2017   3.94697e+00   3.17177e+00   1.11660e-01  -2.40305e-05
+   6  sigma_cb_fixed_C1_2017   2.64804e-02   constant   
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  4    ERR DEF=0.5
+  1.633e+02  9.097e+01 -5.855e-01  2.536e+03 
+  9.097e+01  1.567e+02 -2.098e-01  1.912e+02 
+ -5.855e-01 -2.098e-01  3.264e-03 -8.649e+00 
+  2.536e+03  1.912e+02 -8.649e+00  9.934e+04 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      3      4      5
+        1  0.93087   1.000  0.569 -0.802  0.630
+        3  0.75391   0.569  1.000 -0.293  0.048
+        4  0.83876  -0.802 -0.293  1.000 -0.480
+        5  0.75414   0.630  0.048 -0.480  1.000
+ **********
+ **   18 **HESSE        3000
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-2.02193 FROM HESSE     STATUS=OK             23 CALLS          80 TOTAL
+                     EDM=4.80338e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_C1_2017   3.36211e-01   5.38475e-01   2.12939e-03  -3.33740e-01
+   2  m0_fixed_C1_2017   1.77597e+00   constant   
+   3  sig_alpha_C1_2017   1.29184e+00   1.19028e+01   8.39342e-05   6.46370e-02
+   4  sig_gaus_sigma_C1_2017   2.44069e-02   5.96640e-02   1.62575e-04  -5.37351e-01
+   5  sig_n_C1_2017   3.94697e+00   2.90382e+00   2.23320e-02   6.17243e-01
+   6  sigma_cb_fixed_C1_2017   2.64804e-02   constant   
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  4    ERR DEF=0.5
+  2.180e+02  1.031e+02 -7.979e-01  3.875e+03 
+  1.031e+02  1.626e+02 -2.617e-01  3.677e+02 
+ -7.979e-01 -2.617e-01  4.086e-03 -1.372e+01 
+  3.875e+03  3.677e+02 -1.372e+01  1.346e+05 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      3      4      5
+        1  0.94869   1.000  0.547 -0.845  0.715
+        3  0.76429   0.547  1.000 -0.321  0.079
+        4  0.87358  -0.845 -0.321  1.000 -0.585
+        5  0.82369   0.715  0.079 -0.585  1.000
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SignalModel_C1_2017) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ **********
+ **   23 **HESSE        3000
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-0.00191115 FROM HESSE     STATUS=OK             33 CALLS         114 TOTAL
+                     EDM=4.62874e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_C1_2017   3.36211e-01   7.93573e-01   4.34395e-02  -3.33740e-01
+   2  m0_fixed_C1_2017   1.77597e+00   constant   
+   3  sig_alpha_C1_2017   1.29184e+00   2.32330e+01   1.71226e-03   6.46370e-02
+   4  sig_gaus_sigma_C1_2017   2.44069e-02   5.45452e-02   3.31654e-03  -5.37351e-01
+   5  sig_n_C1_2017   3.94697e+00   3.56556e+00   4.55572e-01   6.17243e-01
+   6  sigma_cb_fixed_C1_2017   2.64804e-02   constant   
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  4    ERR DEF=0.5
+  1.368e+05  4.518e+04 -4.357e+02  4.801e+06 
+  4.518e+04  1.366e+05 -3.177e+01 -9.893e+05 
+ -4.357e+02 -3.177e+01  2.654e+00 -1.360e+04 
+  4.801e+06 -9.893e+05 -1.360e+04  3.517e+08 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      3      4      5
+        1  0.91393   1.000  0.331 -0.723  0.692
+        3  0.69440   0.331  1.000 -0.053 -0.143
+        4  0.78100  -0.723 -0.053  1.000 -0.445
+        5  0.82115   0.692 -0.143 -0.445  1.000
+[#0] ERROR:Fitting -- RooAbsPdf::fitTo(SignalModel_C1_2017) ERROR: Cannot apply sum-of-weights correction to covariance matrix: correction matrix calculated with weight-squared is singular
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooRealVar::m0_fixed_C1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooRealVar::sigma_cb_fixed_C1_2017
+ m0_fixed_C1_2017 sigma_cb_fixed_C1_2017 sig_gaus_sigma_C1_2017 sig_alpha_C1_2017 sig_n_C1_2017[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooAddPdf::SignalModel_C1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooCBShape::CB_final_C1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooGaussian::GS_final_C1_2017
+category  A2_2017
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_fit_A2_2017_Sig_A2_2017) constructing test statistic for sub-range named signal
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_SignalModel_fit_A2_2017_Sig_A2_2017' created with bounds [1.7,1.85]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_fit_A2_2017_Sig_A2_2017) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (t3m_sig_CBshape_A2_2017,t3m_sig_GSshape_A2_2017)
+ **********
+ **   13 **MIGRAD        3000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-24.2623 FROM MIGRAD    STATUS=INITIATE       45 CALLS          46 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_A2_2017   5.00000e-01   1.00000e-01   0.00000e+00   9.05237e-01
+   2  sig_alpha_A2_2017   1.00000e+00   4.00000e+00   0.00000e+00  -8.47880e+00
+   3  sig_gaus_sigma_A2_2017   8.15345e-03   1.00000e-02  -3.48150e-01  -1.39264e-01
+   4  sig_m0_A2_2017   1.77700e+00   1.20000e-02   0.00000e+00  -1.20196e-02
+   5  sig_n_A2_2017   2.00000e+00   5.00000e-01   0.00000e+00  -9.28556e-02
+   6  sig_sigma_A2_2017   2.00000e-02   5.00000e-03   0.00000e+00   1.25214e+00
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-24.6557 FROM HESSE     STATUS=OK             40 CALLS         214 TOTAL
+                     EDM=0.000639268    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_A2_2017   4.76232e-01   6.07040e-01   3.75568e-03  -9.17273e-03
+   2  sig_alpha_A2_2017   1.75810e+00   3.85616e+00   2.34237e-04   5.34026e-02
+   3  sig_gaus_sigma_A2_2017   9.01770e-03   1.51821e-02   6.52645e-04   3.01588e-03
+   4  sig_m0_A2_2017   1.77702e+00   4.12177e-03   2.35343e-04  -1.61882e-02
+   5  sig_n_A2_2017   1.85475e+00   3.53970e+00   9.61986e-03   9.35752e-04
+   6  sig_sigma_A2_2017   1.42850e-02   1.75107e-02   9.94430e-04  -1.56645e-02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ FCN=-24.6566 FROM MIGRAD    STATUS=CONVERGED     242 CALLS         243 TOTAL
+                     EDM=3.02208e-05    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   3.3 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_A2_2017   6.02033e-01   5.47533e-01   2.83263e-02   3.26591e-03
+   2  sig_alpha_A2_2017   1.87393e+00   3.84919e+00   3.17998e-04   1.89689e-04
+   3  sig_gaus_sigma_A2_2017   8.31810e-03   1.75513e-02  -4.38135e-03   1.98709e-02
+   4  sig_m0_A2_2017   1.77704e+00   4.13258e-03   5.01558e-05   5.91448e-03
+   5  sig_n_A2_2017   1.75158e+00   3.43531e+00  -1.81468e-02  -2.47885e-04
+   6  sig_sigma_A2_2017   1.36163e-02   1.60407e-02  -4.34067e-04   1.80285e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  6    ERR DEF=0.5
+  1.004e+01  9.547e+00 -5.677e-02  1.739e-03 -1.197e+01 -5.245e-02 
+  9.547e+00  1.500e+01 -5.206e-02  1.623e-03 -3.648e+01 -5.188e-02 
+ -5.677e-02 -5.206e-02  3.617e-04 -9.296e-06  5.338e-02  2.710e-04 
+  1.739e-03  1.623e-03 -9.296e-06  1.711e-05 -4.929e-03 -1.175e-05 
+ -1.197e+01 -3.648e+01  5.338e-02 -4.929e-03  1.730e+02  8.962e-02 
+ -5.245e-02 -5.188e-02  2.710e-04 -1.175e-05  8.962e-02  3.209e-04 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6
+        1  0.98840   1.000  0.778 -0.942  0.133 -0.287 -0.924
+        2  0.93792   0.778  1.000 -0.707  0.101 -0.716 -0.748
+        3  0.96260  -0.942 -0.707  1.000 -0.118  0.213  0.795
+        4  0.18053   0.133  0.101 -0.118  1.000 -0.091 -0.159
+        5  0.86229  -0.287 -0.716  0.213 -0.091  1.000  0.380
+        6  0.95763  -0.924 -0.748  0.795 -0.159  0.380  1.000
+ **********
+ **   18 **HESSE        3000
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-24.6566 FROM HESSE     STATUS=OK             42 CALLS         285 TOTAL
+                     EDM=5.48605e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_A2_2017   6.02033e-01   6.07843e-01   3.93427e-03   2.05509e-01
+   2  sig_alpha_A2_2017   1.87393e+00   3.22088e+00   2.22627e-04   9.38344e-02
+   3  sig_gaus_sigma_A2_2017   8.31810e-03   1.69695e-02   8.06181e-04  -9.85662e-01
+   4  sig_m0_A2_2017   1.77704e+00   4.12503e-03   2.34995e-04  -4.93542e-02
+   5  sig_n_A2_2017   1.75158e+00   4.10338e+00   9.16369e-03  -3.04031e-01
+   6  sig_sigma_A2_2017   1.36163e-02   1.50570e-02   8.24552e-04  -4.72763e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  6    ERR DEF=0.5
+  8.060e+00  6.677e+00 -4.722e-02  1.411e-03 -6.475e+00 -4.361e-02 
+  6.677e+00  1.047e+01 -3.842e-02  1.183e-03 -2.483e+01 -3.683e-02 
+ -4.722e-02 -3.842e-02  3.339e-04 -7.481e-06  2.864e-02  2.324e-04 
+  1.411e-03  1.183e-03 -7.481e-06  1.704e-05 -3.550e-03 -9.739e-06 
+ -6.475e+00 -2.483e+01  2.864e-02 -3.550e-03  1.199e+02  4.567e-02 
+ -4.361e-02 -3.683e-02  2.324e-04 -9.739e-06  4.567e-02  2.735e-04 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6
+        1  0.98082   1.000  0.727 -0.910  0.120 -0.208 -0.929
+        2  0.92086   0.727  1.000 -0.650  0.089 -0.701 -0.688
+        3  0.93337  -0.910 -0.650  1.000 -0.099  0.143  0.769
+        4  0.16696   0.120  0.089 -0.099  1.000 -0.079 -0.143
+        5  0.83653  -0.208 -0.701  0.143 -0.079  1.000  0.252
+        6  0.94860  -0.929 -0.688  0.769 -0.143  0.252  1.000
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SignalModel_fit_A2_2017) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ **********
+ **   23 **HESSE        3000
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-0.0223732 FROM HESSE     STATUS=OK             60 CALLS         345 TOTAL
+                     EDM=1.91964e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_A2_2017   6.02033e-01   6.32370e-01   8.02590e-02   2.05509e-01
+   2  sig_alpha_A2_2017   1.87393e+00   2.02961e+01   9.08316e-04   9.38344e-02
+   3  sig_gaus_sigma_A2_2017   8.31810e-03   8.93939e-02   1.64461e-02  -9.85662e-01
+   4  sig_m0_A2_2017   1.77704e+00   8.04250e-02   4.79390e-03  -4.93542e-02
+   5  sig_n_A2_2017   1.75158e+00   2.72844e+00   1.86939e-01  -3.04031e-01
+   6  sig_sigma_A2_2017   1.36163e-02   4.06465e-02   1.68209e-02  -4.72763e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  6    ERR DEF=0.5
+  2.447e+03  1.783e+03 -7.801e+00  5.394e-01 -2.099e+03 -1.640e+01 
+  1.783e+03  4.474e+03 -5.751e+00  2.115e-01 -1.141e+04 -1.178e+01 
+ -7.801e+00 -5.751e+00  8.804e-02 -8.542e-04  5.063e-01  2.716e-02 
+  5.394e-01  2.115e-01 -8.542e-04  1.857e-02 -2.215e+00 -5.379e-03 
+ -2.099e+03 -1.141e+04  5.063e-01 -2.215e+00  7.304e+04  2.195e+01 
+ -1.640e+01 -1.178e+01  2.716e-02 -5.379e-03  2.195e+01  1.509e-01 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6
+        1  0.92868   1.000  0.539 -0.531  0.080 -0.157 -0.853
+        2  0.77969   0.539  1.000 -0.290  0.023 -0.631 -0.453
+        3  0.67627  -0.531 -0.290  1.000 -0.021  0.006  0.236
+        4  0.12812   0.080  0.023 -0.021  1.000 -0.060 -0.102
+        5  0.68787  -0.157 -0.631  0.006 -0.060  1.000  0.209
+        6  0.89457  -0.853 -0.453  0.236 -0.102  0.209  1.000
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_A2_2017_Sig_A2_2017) constructing test statistic for sub-range named signal
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_SignalModel_A2_2017_Sig_A2_2017' created with bounds [1.7,1.85]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_A2_2017_Sig_A2_2017) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (CB_final_A2_2017,GS_final_A2_2017)
+ **********
+ **   13 **MIGRAD        3000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-24.6566 FROM MIGRAD    STATUS=INITIATE       18 CALLS          19 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_A2_2017   6.02033e-01   1.15741e+00   1.56884e+00   3.26594e-03
+   2  m0_fixed_A2_2017   1.77704e+00   constant   
+   3  sig_alpha_A2_2017   1.87393e+00   6.61648e+00   3.38920e-01   1.92298e-04
+   4  sig_gaus_sigma_A2_2017   8.31810e-03   2.91922e-02   6.58188e-01   1.98705e-02
+   5  sig_n_A2_2017   1.75158e+00   8.51498e+00   1.56884e+00  -2.47009e-04
+   6  sigma_cb_fixed_A2_2017   1.36163e-02   constant   
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-24.6566 FROM MIGRAD    STATUS=CONVERGED      53 CALLS          54 TOTAL
+                     EDM=3.40541e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_A2_2017   6.00886e-01   7.81836e-01   3.91600e-03  -4.85545e-04
+   2  m0_fixed_A2_2017   1.77704e+00   constant   
+   3  sig_alpha_A2_2017   1.87393e+00   2.35111e+00   2.19393e-04   1.51774e-02
+   4  sig_gaus_sigma_A2_2017   8.30074e-03   1.14083e-02   8.22582e-04   1.95863e-03
+   5  sig_n_A2_2017   1.75367e+00   4.12129e+00   8.71267e-03   9.18552e-05
+   6  sigma_cb_fixed_A2_2017   1.36163e-02   constant   
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  4    ERR DEF=0.5
+  1.121e+00  8.157e-01 -1.036e-02  8.069e-01 
+  8.157e-01  5.554e+00 -7.267e-03 -1.890e+01 
+ -1.036e-02 -7.267e-03  1.383e-04 -1.030e-02 
+  8.069e-01 -1.890e+01 -1.030e-02  1.134e+02 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      3      4      5
+        1  0.85400   1.000  0.327 -0.832  0.072
+        3  0.84430   0.327  1.000 -0.262 -0.753
+        4  0.83196  -0.832 -0.262  1.000 -0.082
+        5  0.82497   0.072 -0.753 -0.082  1.000
+ **********
+ **   18 **HESSE        3000
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-24.6566 FROM HESSE     STATUS=OK             23 CALLS          78 TOTAL
+                     EDM=3.5631e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_A2_2017   6.00886e-01   7.76882e-01   7.83200e-04   2.03166e-01
+   2  m0_fixed_A2_2017   1.77704e+00   constant   
+   3  sig_alpha_A2_2017   1.87393e+00   2.41757e+00   4.38785e-05   9.38339e-02
+   4  sig_gaus_sigma_A2_2017   8.30074e-03   1.16479e-02   1.64516e-04  -9.86291e-01
+   5  sig_n_A2_2017   1.75367e+00   4.10335e+00   3.48507e-04  -3.03154e-01
+   6  sigma_cb_fixed_A2_2017   1.36163e-02   constant   
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  4    ERR DEF=0.5
+  1.173e+00  8.622e-01 -1.093e-02  8.116e-01 
+  8.622e-01  5.874e+00 -7.735e-03 -2.025e+01 
+ -1.093e-02 -7.735e-03  1.446e-04 -1.059e-02 
+  8.116e-01 -2.025e+01 -1.059e-02  1.198e+02 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      3      4      5
+        1  0.86097   1.000  0.328 -0.839  0.068
+        3  0.85352   0.328  1.000 -0.265 -0.763
+        4  0.83995  -0.839 -0.265  1.000 -0.080
+        5  0.83517   0.068 -0.763 -0.080  1.000
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SignalModel_A2_2017) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ **********
+ **   23 **HESSE        3000
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-0.0223732 FROM HESSE     STATUS=OK             31 CALLS         110 TOTAL
+                     EDM=2.97179e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_A2_2017   6.00886e-01   5.99664e-01   1.59773e-02   2.03166e-01
+   2  m0_fixed_A2_2017   1.77704e+00   constant   
+   3  sig_alpha_A2_2017   1.87393e+00   2.44584e+01   8.95122e-04   9.38339e-02
+   4  sig_gaus_sigma_A2_2017   8.30074e-03   5.39518e-02   3.35614e-03  -9.86291e-01
+   5  sig_n_A2_2017   1.75367e+00   3.30136e+00   7.10954e-03  -3.03154e-01
+   6  sigma_cb_fixed_A2_2017   1.36163e-02   constant   
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  4    ERR DEF=0.5
+  1.071e+03  7.173e+02 -9.637e+00  1.046e+03 
+  7.173e+02  5.741e+03 -6.144e+00 -1.984e+04 
+ -9.637e+00 -6.144e+00  1.342e-01 -1.260e+01 
+  1.046e+03 -1.984e+04 -1.260e+01  1.216e+05 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      3      4      5
+        1  0.82984   1.000  0.289 -0.804  0.092
+        3  0.83292   0.289  1.000 -0.221 -0.751
+        4  0.80452  -0.804 -0.221  1.000 -0.099
+        5  0.81796   0.092 -0.751 -0.099  1.000
+[#0] ERROR:Fitting -- RooAbsPdf::fitTo(SignalModel_A2_2017) ERROR: Cannot apply sum-of-weights correction to covariance matrix: correction matrix calculated with weight-squared is singular
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooRealVar::m0_fixed_A2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooRealVar::sigma_cb_fixed_A2_2017
+ m0_fixed_A2_2017 sigma_cb_fixed_A2_2017 sig_gaus_sigma_A2_2017 sig_alpha_A2_2017 sig_n_A2_2017[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooAddPdf::SignalModel_A2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooCBShape::CB_final_A2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooGaussian::GS_final_A2_2017
+category  B2_2017
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_fit_B2_2017_Sig_B2_2017) constructing test statistic for sub-range named signal
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_SignalModel_fit_B2_2017_Sig_B2_2017' created with bounds [1.7,1.85]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_fit_B2_2017_Sig_B2_2017) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (t3m_sig_CBshape_B2_2017,t3m_sig_GSshape_B2_2017)
+ **********
+ **   13 **MIGRAD        3000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-45.546 FROM MIGRAD    STATUS=INITIATE       22 CALLS          23 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_B2_2017   5.00000e-01   1.00000e-01   2.01358e-01   5.80006e-01
+   2  sig_alpha_B2_2017   1.00000e+00   4.00000e+00   2.01624e-01  -1.66060e+01
+   3  sig_gaus_sigma_B2_2017   2.00000e-02   1.00000e-02   2.57889e-01   4.12331e+00
+   4  sig_m0_B2_2017   1.77700e+00   1.20000e-02   2.01624e-01  -7.12104e-01
+   5  sig_n_B2_2017   2.00000e+00   5.00000e-01   2.05758e-01  -2.21150e-01
+   6  sig_sigma_B2_2017   2.00000e-02   5.00000e-03   2.05758e-01   1.62438e+00
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-46.0154 FROM HESSE     STATUS=OK             40 CALLS         189 TOTAL
+                     EDM=0.00593005    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_B2_2017   2.90328e-01   8.05056e-01   5.45346e-03   1.72740e-03
+   2  sig_alpha_B2_2017   1.20573e+00   3.19986e+00   2.45318e-04  -3.95704e-02
+   3  sig_gaus_sigma_B2_2017   1.92670e-02   1.07214e-02   5.36558e-04   5.36184e-02
+   4  sig_m0_B2_2017   1.77730e+00   5.24108e-03   3.42149e-04  -4.58787e-02
+   5  sig_n_B2_2017   2.24582e+00   2.99041e+00   1.18596e-02   4.68089e-03
+   6  sig_sigma_B2_2017   1.27961e-02   3.09447e-02   2.20524e-03   9.92026e-03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-46.0195 FROM MIGRAD    STATUS=CONVERGED     345 CALLS         346 TOTAL
+                     EDM=4.25671e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_B2_2017   1.67145e-01   7.37847e-01   4.40165e-03  -1.04383e-03
+   2  sig_alpha_B2_2017   1.52770e+00   5.52768e+00   3.21634e-04  -3.64079e-02
+   3  sig_gaus_sigma_B2_2017   1.87753e-02   6.56574e-03   4.57851e-04  -2.40499e-03
+   4  sig_m0_B2_2017   1.77714e+00   4.89365e-03   3.40078e-04  -5.58334e-04
+   5  sig_n_B2_2017   5.78097e-01   2.56607e+00   5.62537e-03   3.32174e-04
+   6  sig_sigma_B2_2017   1.04794e-02   2.88314e-02   2.75048e-03  -3.40537e-03
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  6    ERR DEF=0.5
+  1.017e+00 -4.083e+00  4.633e-03  1.944e-03  9.114e+00  2.290e-02 
+ -4.083e+00  3.137e+01 -1.205e-02 -9.618e-03 -5.259e+01 -1.449e-01 
+  4.633e-03 -1.205e-02  4.352e-05  4.149e-06  3.938e-02  7.167e-05 
+  1.944e-03 -9.618e-03  4.149e-06  2.400e-05  1.694e-02  5.300e-05 
+  9.114e+00 -5.259e+01  3.938e-02  1.694e-02  1.037e+02  2.599e-01 
+  2.290e-02 -1.449e-01  7.167e-05  5.300e-05  2.599e-01  8.473e-04 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6
+        1  0.93885   1.000 -0.723  0.696  0.394  0.887  0.780
+        2  0.96930  -0.723  1.000 -0.326 -0.351 -0.922 -0.889
+        3  0.81961   0.696 -0.326  1.000  0.128  0.586  0.373
+        4  0.46938   0.394 -0.351  0.128  1.000  0.339  0.372
+        5  0.98223   0.887 -0.922  0.586  0.339  1.000  0.877
+        6  0.91389   0.780 -0.889  0.373  0.372  0.877  1.000
+ **********
+ **   18 **HESSE        3000
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-46.0195 FROM HESSE     STATUS=OK             40 CALLS         386 TOTAL
+                     EDM=4.53928e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_B2_2017   1.67145e-01   7.68170e-01   8.80329e-04  -7.28445e-01
+   2  sig_alpha_B2_2017   1.52770e+00   5.82667e+00   6.43269e-05   7.64593e-02
+   3  sig_gaus_sigma_B2_2017   1.87753e-02   6.67981e-03   9.15702e-05  -6.74484e-01
+   4  sig_m0_B2_2017   1.77714e+00   4.94272e-03   6.80155e-05  -4.76283e-02
+   5  sig_n_B2_2017   5.78097e-01   2.75531e+00   1.12507e-03  -8.76902e-01
+   6  sig_sigma_B2_2017   1.04794e-02   2.83766e-02   5.50097e-04  -6.19738e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  6    ERR DEF=0.5
+  1.117e+00 -4.670e+00  5.018e-03  2.161e-03  1.023e+01  2.585e-02 
+ -4.670e+00  3.496e+01 -1.428e-02 -1.092e-02 -5.926e+01 -1.628e-01 
+  5.018e-03 -1.428e-02  4.506e-05  4.949e-06  4.367e-02  8.277e-05 
+  2.161e-03 -1.092e-02  4.949e-06  2.449e-05  1.938e-02  5.966e-05 
+  1.023e+01 -5.926e+01  4.367e-02  1.938e-02  1.163e+02  2.932e-01 
+  2.585e-02 -1.628e-01  8.277e-05  5.966e-05  2.932e-01  9.369e-04 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6
+        1  0.94447   1.000 -0.747  0.707  0.413  0.898  0.799
+        2  0.97250  -0.747  1.000 -0.360 -0.373 -0.929 -0.900
+        3  0.82642   0.707 -0.360  1.000  0.149  0.603  0.403
+        4  0.48555   0.413 -0.373  0.149  1.000  0.363  0.394
+        5  0.98416   0.898 -0.929  0.603  0.363  1.000  0.888
+        6  0.92247   0.799 -0.900  0.403  0.394  0.888  1.000
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SignalModel_fit_B2_2017) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ **********
+ **   23 **HESSE        3000
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-0.0400062 FROM HESSE     STATUS=OK             54 CALLS         440 TOTAL
+                     EDM=3.7448e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_B2_2017   1.67145e-01   6.92592e-01   1.79587e-02  -7.28445e-01
+   2  sig_alpha_B2_2017   1.52770e+00   3.06507e+01   1.31227e-03   7.64593e-02
+   3  sig_gaus_sigma_B2_2017   1.87753e-02   6.75712e-02   1.86803e-03  -6.74484e-01
+   4  sig_m0_B2_2017   1.77714e+00   7.00169e-02   1.38752e-03  -4.76283e-02
+   5  sig_n_B2_2017   5.78097e-01   2.76162e+00   2.29515e-02  -8.76902e-01
+   6  sig_sigma_B2_2017   1.04794e-02   4.43659e-02   1.12220e-02  -6.19738e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  6    ERR DEF=0.5
+  9.099e+02 -3.125e+03  4.388e+00  1.652e+00  7.552e+03  1.864e+01 
+ -3.125e+03  2.597e+04 -8.305e+00 -7.378e+00 -4.220e+04 -1.170e+02 
+  4.388e+00 -8.305e+00  4.664e-02  2.832e-03  3.470e+01  5.589e-02 
+  1.652e+00 -7.378e+00  2.832e-03  2.623e-02  1.278e+01  4.221e-02 
+  7.552e+03 -4.220e+04  3.470e+01  1.278e+01  8.572e+04  2.098e+02 
+  1.864e+01 -1.170e+02  5.589e-02  4.221e-02  2.098e+02  7.321e-01 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6
+        1  0.92107   1.000 -0.643  0.674  0.338  0.855  0.722
+        2  0.95717  -0.643  1.000 -0.239 -0.283 -0.894 -0.849
+        3  0.80347   0.674 -0.239  1.000  0.081  0.549  0.302
+        4  0.42312   0.338 -0.283  0.081  1.000  0.269  0.305
+        5  0.97521   0.855 -0.894  0.549  0.269  1.000  0.837
+        6  0.88358   0.722 -0.849  0.302  0.305  0.837  1.000
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_B2_2017_Sig_B2_2017) constructing test statistic for sub-range named signal
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_SignalModel_B2_2017_Sig_B2_2017' created with bounds [1.7,1.85]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_B2_2017_Sig_B2_2017) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (CB_final_B2_2017,GS_final_B2_2017)
+ **********
+ **   13 **MIGRAD        3000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-46.0195 FROM MIGRAD    STATUS=INITIATE       18 CALLS          19 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_B2_2017   1.67145e-01   2.06373e+00   1.56884e+00  -1.04032e-03
+   2  m0_fixed_B2_2017   1.77714e+00   constant   
+   3  sig_alpha_B2_2017   1.52770e+00   1.58717e+01   9.27462e-01  -3.64235e-02
+   4  sig_gaus_sigma_B2_2017   1.87753e-02   1.22897e-02   3.33697e-01  -2.43174e-03
+   5  sig_n_B2_2017   5.78097e-01   8.13138e+00   1.56884e+00   3.26323e-04
+   6  sigma_cb_fixed_B2_2017   1.04794e-02   constant   
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-46.0195 FROM MIGRAD    STATUS=CONVERGED      51 CALLS          52 TOTAL
+                     EDM=1.35889e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_B2_2017   1.67844e-01   5.07731e-01   4.38315e-03  -9.14557e-04
+   2  m0_fixed_B2_2017   1.77714e+00   constant   
+   3  sig_alpha_B2_2017   1.53489e+00   2.56471e+00   3.25258e-04   1.37043e-02
+   4  sig_gaus_sigma_B2_2017   1.87771e-02   6.06403e-03   4.55843e-04  -2.24354e-02
+   5  sig_n_B2_2017   5.76549e-01   4.35222e+00   5.63179e-03   2.15105e-03
+   6  sigma_cb_fixed_B2_2017   1.04794e-02   constant   
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  4    ERR DEF=0.5
+  3.785e-01 -1.724e-01  2.651e-03  2.039e+00 
+ -1.724e-01  6.614e+00  6.376e-05 -8.249e+00 
+  2.651e-03  6.376e-05  3.707e-05  1.715e-02 
+  2.039e+00 -8.249e+00  1.715e-02  2.383e+01 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      3      4      5
+        1  0.82478   1.000 -0.109  0.708  0.679
+        3  0.84505  -0.109  1.000  0.004 -0.657
+        4  0.78387   0.708  0.004  1.000  0.577
+        5  0.92053   0.679 -0.657  0.577  1.000
+ **********
+ **   18 **HESSE        3000
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-46.0195 FROM HESSE     STATUS=OK             23 CALLS          76 TOTAL
+                     EDM=1.36957e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_B2_2017   1.67844e-01   5.05658e-01   8.76630e-04  -7.26574e-01
+   2  m0_fixed_B2_2017   1.77714e+00   constant   
+   3  sig_alpha_B2_2017   1.53489e+00   2.58000e+00   6.50517e-05   7.68200e-02
+   4  sig_gaus_sigma_B2_2017   1.87771e-02   6.08750e-03   9.11686e-05  -6.74437e-01
+   5  sig_n_B2_2017   5.76549e-01   4.38023e+00   1.12636e-03  -8.77870e-01
+   6  sigma_cb_fixed_B2_2017   1.04794e-02   constant   
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  4    ERR DEF=0.5
+  3.838e-01 -1.841e-01  2.690e-03  2.087e+00 
+ -1.841e-01  6.694e+00 -3.924e-05 -8.425e+00 
+  2.690e-03 -3.924e-05  3.736e-05  1.752e-02 
+  2.087e+00 -8.425e+00  1.752e-02  2.434e+01 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      3      4      5
+        1  0.82745   1.000 -0.115  0.710  0.683
+        3  0.84706  -0.115  1.000 -0.002 -0.660
+        4  0.78577   0.710 -0.002  1.000  0.581
+        5  0.92227   0.683 -0.660  0.581  1.000
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SignalModel_B2_2017) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ **********
+ **   23 **HESSE        3000
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-0.0400062 FROM HESSE     STATUS=OK             31 CALLS         108 TOTAL
+                     EDM=3.19313e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_B2_2017   1.67844e-01   9.12010e-01   1.78832e-02  -7.26574e-01
+   2  m0_fixed_B2_2017   1.77714e+00   constant   
+   3  sig_alpha_B2_2017   1.53489e+00   2.79132e+01   1.32705e-03   7.68200e-02
+   4  sig_gaus_sigma_B2_2017   1.87771e-02   7.45348e-02   1.85984e-03  -6.74437e-01
+   5  sig_n_B2_2017   5.76549e-01   3.46396e+00   2.29777e-02  -8.77870e-01
+   6  sigma_cb_fixed_B2_2017   1.04794e-02   constant   
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  4    ERR DEF=0.5
+  4.138e+02 -1.482e+02  2.916e+00  2.154e+03 
+ -1.482e+02  7.249e+03  4.944e-01 -8.727e+03 
+  2.916e+00  4.944e-01  4.194e-02  1.838e+01 
+  2.154e+03 -8.727e+03  1.838e+01  2.533e+04 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      3      4      5
+        1  0.81565   1.000 -0.086  0.700  0.665
+        3  0.83703  -0.086  1.000  0.028 -0.644
+        4  0.77820   0.700  0.028  1.000  0.564
+        5  0.91384   0.665 -0.644  0.564  1.000
+[#0] ERROR:Fitting -- RooAbsPdf::fitTo(SignalModel_B2_2017) ERROR: Cannot apply sum-of-weights correction to covariance matrix: correction matrix calculated with weight-squared is singular
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooRealVar::m0_fixed_B2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooRealVar::sigma_cb_fixed_B2_2017
+ m0_fixed_B2_2017 sigma_cb_fixed_B2_2017 sig_gaus_sigma_B2_2017 sig_alpha_B2_2017 sig_n_B2_2017[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooAddPdf::SignalModel_B2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooCBShape::CB_final_B2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooGaussian::GS_final_B2_2017
+category  C2_2017
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_fit_C2_2017_Sig_C2_2017) constructing test statistic for sub-range named signal
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_SignalModel_fit_C2_2017_Sig_C2_2017' created with bounds [1.7,1.85]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_fit_C2_2017_Sig_C2_2017) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (t3m_sig_CBshape_C2_2017,t3m_sig_GSshape_C2_2017)
+ **********
+ **   13 **MIGRAD        3000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-12.7489 FROM MIGRAD    STATUS=INITIATE       22 CALLS          23 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_C2_2017   5.00000e-01   1.00000e-01   2.01358e-01   3.42716e-02
+   2  sig_alpha_C2_2017   1.00000e+00   4.00000e+00   2.01624e-01  -6.31939e-01
+   3  sig_gaus_sigma_C2_2017   2.00000e-02   1.00000e-02   2.57889e-01  -1.88620e+00
+   4  sig_m0_C2_2017   1.77700e+00   1.20000e-02   2.01624e-01  -1.76493e+00
+   5  sig_n_C2_2017   2.00000e+00   5.00000e-01   2.05758e-01  -1.92940e-02
+   6  sig_sigma_C2_2017   2.00000e-02   5.00000e-03   2.05758e-01  -8.92907e-01
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -2.2303e-02  4.5560e-02  3.3865e-01  7.6283e-01  1.5452e+00  3.3301e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 0.025634 TO DIAGONAL.
+ FCN=-12.9318 FROM HESSE     STATUS=NOT POSDEF     40 CALLS         132 TOTAL
+                     EDM=0.0115047    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_C2_2017   3.14673e-01   7.94443e-01   7.74584e-03   8.60423e-04
+   2  sig_alpha_C2_2017   1.33907e+00   1.55877e+01   4.12493e-04  -1.65836e-02
+   3  sig_gaus_sigma_C2_2017   2.37291e-02   5.85241e-02   6.95394e-04   2.45876e-02
+   4  sig_m0_C2_2017   1.77714e+00   1.76309e-02   4.58591e-04   1.52261e-02
+   5  sig_n_C2_2017   2.99533e+00   3.44950e+00   6.46448e-02  -2.11255e-04
+   6  sig_sigma_C2_2017   2.74249e-02   3.04546e-02   3.23861e-03  -5.29844e-03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-12.9333 FROM MIGRAD    STATUS=CONVERGED     268 CALLS         269 TOTAL
+                     EDM=0.000172723    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_C2_2017   2.94551e-01   5.37186e-01   4.90835e-03  -1.54815e-04
+   2  sig_alpha_C2_2017   1.35703e+00   1.19511e+01   4.77134e-04  -3.81191e-03
+   3  sig_gaus_sigma_C2_2017   2.24814e-02   6.09972e-02   7.02704e-04   2.86604e-03
+   4  sig_m0_C2_2017   1.77684e+00   1.15216e-02   4.65081e-04  -6.18192e-03
+   5  sig_n_C2_2017   4.33869e+00   2.80291e+00   2.68246e-01  -2.28926e-05
+   6  sig_sigma_C2_2017   3.22212e-02   2.84564e-02   3.79421e-03   3.26169e-04
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  6    ERR DEF=0.5
+  7.517e+01  1.043e+02 -3.757e-01  2.494e-02  6.979e+02 -2.071e+00 
+  1.043e+02  1.642e+02 -5.022e-01  3.024e-02  6.388e+02 -2.923e+00 
+ -3.757e-01 -5.022e-01  2.216e-03 -1.071e-04 -4.206e+00  9.447e-03 
+  2.494e-02  3.024e-02 -1.071e-04  1.344e-04  2.270e-02 -7.829e-04 
+  6.979e+02  6.388e+02 -4.206e+00  2.270e-02  4.492e+04 -1.662e+01 
+ -2.071e+00 -2.923e+00  9.447e-03 -7.829e-04 -1.662e+01  6.099e-02 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6
+        1  0.99533   1.000  0.939 -0.920  0.248  0.380 -0.967
+        2  0.95101   0.939  1.000 -0.833  0.204  0.235 -0.924
+        3  0.97100  -0.920 -0.833  1.000 -0.196 -0.422  0.813
+        4  0.32238   0.248  0.204 -0.196  1.000  0.009 -0.273
+        5  0.54551   0.380  0.235 -0.422  0.009  1.000 -0.317
+        6  0.98785  -0.967 -0.924  0.813 -0.273 -0.317  1.000
+ **********
+ **   18 **HESSE        3000
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-12.9333 FROM HESSE     STATUS=OK             44 CALLS         313 TOTAL
+                     EDM=0.000175714    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_C2_2017   2.94551e-01   6.44110e-01   9.81670e-04  -4.23440e-01
+   2  sig_alpha_C2_2017   1.35703e+00   1.28788e+01   9.54269e-05   6.79037e-02
+   3  sig_gaus_sigma_C2_2017   2.24814e-02   6.07578e-02   1.40541e-04  -5.82810e-01
+   4  sig_m0_C2_2017   1.77684e+00   1.15455e-02   9.30162e-05  -5.27010e-02
+   5  sig_n_C2_2017   4.33869e+00   2.81459e+00   5.00000e-01   8.26372e-01
+   6  sig_sigma_C2_2017   3.22212e-02   3.12327e-02   7.58843e-04   2.93024e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  6    ERR DEF=0.5
+  8.177e+01  1.206e+02 -4.150e-01  2.775e-02  3.754e+02 -2.229e+00 
+  1.206e+02  1.960e+02 -5.944e-01  3.581e-02  3.394e+02 -3.330e+00 
+ -4.150e-01 -5.944e-01  2.447e-03 -1.249e-04 -2.397e+00  1.040e-02 
+  2.775e-02  3.581e-02 -1.249e-04  1.350e-04 -5.275e-03 -8.463e-04 
+  3.754e+02  3.394e+02 -2.397e+00 -5.275e-03  3.218e+04 -8.438e+00 
+ -2.229e+00 -3.330e+00  1.040e-02 -8.463e-04 -8.438e+00  6.466e-02 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6
+        1  0.99571   1.000  0.953 -0.928  0.264  0.231 -0.969
+        2  0.95913   0.953  1.000 -0.858  0.220  0.135 -0.935
+        3  0.97376  -0.928 -0.858  1.000 -0.217 -0.270  0.827
+        4  0.32814   0.264  0.220 -0.217  1.000 -0.003 -0.286
+        5  0.38983   0.231  0.135 -0.270 -0.003  1.000 -0.185
+        6  0.98854  -0.969 -0.935  0.827 -0.286 -0.185  1.000
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SignalModel_fit_C2_2017) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ **********
+ **   23 **HESSE        3000
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-0.0113059 FROM HESSE     STATUS=OK             58 CALLS         371 TOTAL
+                     EDM=4.98501e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_C2_2017   2.94551e-01   6.13485e-01   2.00261e-02  -4.23440e-01
+   2  sig_alpha_C2_2017   1.35703e+00   2.94416e+01   1.94671e-03   6.79037e-02
+   3  sig_gaus_sigma_C2_2017   2.24814e-02   5.53151e-02   2.86703e-03  -5.82810e-01
+   4  sig_m0_C2_2017   1.77684e+00   6.52393e-02   1.89753e-03  -5.27010e-02
+   5  sig_n_C2_2017   4.33869e+00   3.37999e+00   5.00000e-01   8.26372e-01
+   6  sig_sigma_C2_2017   3.22212e-02   3.10425e-02   1.54804e-02   2.93024e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  6    ERR DEF=0.5
+  3.602e+04  4.437e+04 -1.674e+02  1.462e+01  3.562e+05 -1.037e+03 
+  4.437e+04  7.476e+04 -1.941e+02  1.118e+01  2.339e+05 -1.293e+03 
+ -1.674e+02 -1.941e+02  1.126e+00 -5.156e-02 -2.047e+03  3.924e+00 
+  1.462e+01  1.118e+01 -5.156e-02  1.498e-01 -8.322e+00 -5.181e-01 
+  3.562e+05  2.339e+05 -2.047e+03 -8.322e+00  3.865e+07 -8.820e+03 
+ -1.037e+03 -1.293e+03  3.924e+00 -5.181e-01 -8.820e+03  3.385e+01 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6
+        1  0.98884   1.000  0.855 -0.831  0.199  0.302 -0.939
+        2  0.87092   0.855  1.000 -0.669  0.106  0.138 -0.813
+        3  0.93345  -0.831 -0.669  1.000 -0.126 -0.310  0.636
+        4  0.28331   0.199  0.106 -0.126  1.000 -0.003 -0.230
+        5  0.40289   0.302  0.138 -0.310 -0.003  1.000 -0.244
+        6  0.97504  -0.939 -0.813  0.636 -0.230 -0.244  1.000
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_C2_2017_Sig_C2_2017) constructing test statistic for sub-range named signal
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_SignalModel_C2_2017_Sig_C2_2017' created with bounds [1.7,1.85]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SignalModel_C2_2017_Sig_C2_2017) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (CB_final_C2_2017,GS_final_C2_2017)
+ **********
+ **   13 **MIGRAD        3000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-12.9333 FROM MIGRAD    STATUS=INITIATE       20 CALLS          21 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_C2_2017   2.94551e-01   9.67405e-01   1.56884e+00  -1.54586e-04
+   2  m0_fixed_C2_2017   1.77684e+00   constant   
+   3  sig_alpha_C2_2017   1.35703e+00   1.79868e+01   1.14785e+00  -3.94976e-03
+   4  sig_gaus_sigma_C2_2017   2.24814e-02   8.79217e-02   1.56884e+00   2.86215e-03
+   5  sig_n_C2_2017   4.33869e+00   2.37113e+00   8.91731e-01  -2.32635e-05
+   6  sigma_cb_fixed_C2_2017   3.22212e-02   constant   
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-12.9333 FROM MIGRAD    STATUS=CONVERGED      59 CALLS          60 TOTAL
+                     EDM=1.69693e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  cb_fraction_C2_2017   2.94881e-01   8.34693e-01   4.64472e-03  -1.05836e-03
+   2  m0_fixed_C2_2017   1.77684e+00   constant   
+   3  sig_alpha_C2_2017   1.36136e+00   4.89603e+00   5.02448e-04   7.60114e-03
+   4  sig_gaus_sigma_C2_2017   2.24693e-02   2.49174e-02   6.82389e-04  -4.55677e-04
+   5  sig_n_C2_2017   4.83232e+00   3.86408e+00   5.00000e-01  -3.06039e-06
+   6  sigma_cb_fixed_C2_2017   3.22212e-02   constant   
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  4    ERR DEF=0.5
+  4.535e+00  5.681e+00 -5.142e-02  3.784e+01 
+  5.681e+00  2.447e+01 -5.712e-02 -4.786e+01 
+ -5.142e-02 -5.712e-02  7.130e-04 -4.657e-01 
+  3.784e+01 -4.786e+01 -4.657e-01  3.413e+04 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      3      4      5
+        1  0.91952   1.000  0.539 -0.904  0.096
+        3  0.56401   0.539  1.000 -0.432 -0.052
+        4  0.90663  -0.904 -0.432  1.000 -0.094
+        5  0.15677   0.096 -0.052 -0.094  1.000
+ **********
+ **   18 **HESSE        3000
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-12.9333 FROM HESSE     STATUS=OK             27 CALLS          88 TOTAL
+                     EDM=1.79317e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_C2_2017   2.94881e-01   8.14642e-01   9.28945e-04  -4.22714e-01
+   2  m0_fixed_C2_2017   1.77684e+00   constant   
+   3  sig_alpha_C2_2017   1.36136e+00   4.96833e+00   1.00490e-04   6.81207e-02
+   4  sig_gaus_sigma_C2_2017   2.24693e-02   2.56877e-02   1.36478e-04  -5.83100e-01
+   5  sig_n_C2_2017   4.83232e+00   3.74325e+00   5.00000e-01   1.20247e+00
+   6  sigma_cb_fixed_C2_2017   3.22212e-02   constant   
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  4    ERR DEF=0.5
+  4.886e+00  6.190e+00 -5.573e-02  3.937e+01 
+  6.190e+00  2.521e+01 -6.329e-02 -4.821e+01 
+ -5.573e-02 -6.329e-02  7.657e-04 -4.874e-01 
+  3.937e+01 -4.821e+01 -4.874e-01  3.417e+04 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      3      4      5
+        1  0.92554   1.000  0.558 -0.911  0.096
+        3  0.58157   0.558  1.000 -0.455 -0.052
+        4  0.91336  -0.911 -0.455  1.000 -0.095
+        5  0.15969   0.096 -0.052 -0.095  1.000
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SignalModel_C2_2017) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ **********
+ **   23 **HESSE        3000
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-0.0113059 FROM HESSE     STATUS=OK             35 CALLS         124 TOTAL
+                     EDM=2.68506e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  cb_fraction_C2_2017   2.94881e-01   8.26115e-01   1.89505e-02  -4.22714e-01
+   2  m0_fixed_C2_2017   1.77684e+00   constant   
+   3  sig_alpha_C2_2017   1.36136e+00   3.05526e+01   2.04999e-03   6.81207e-02
+   4  sig_gaus_sigma_C2_2017   2.24693e-02   6.04081e-02   2.78415e-03  -5.83100e-01
+   5  sig_n_C2_2017   4.83232e+00   2.57949e+00   5.00000e-01   1.20247e+00
+   6  sigma_cb_fixed_C2_2017   3.22212e-02   constant   
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  4    ERR DEF=0.5
+  4.196e+03  5.048e+03 -4.668e+01  4.560e+04 
+  5.048e+03  2.601e+04 -4.788e+01 -5.814e+04 
+ -4.668e+01 -4.788e+01  6.678e-01 -5.480e+02 
+  4.560e+04 -5.814e+04 -5.480e+02  4.514e+07 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      3      4      5
+        1  0.89957   1.000  0.483 -0.882  0.105
+        3  0.51162   0.483  1.000 -0.363 -0.054
+        4  0.88468  -0.882 -0.363  1.000 -0.100
+        5  0.15865   0.105 -0.054 -0.100  1.000
+[#0] ERROR:Fitting -- RooAbsPdf::fitTo(SignalModel_C2_2017) ERROR: Cannot apply sum-of-weights correction to covariance matrix: correction matrix calculated with weight-squared is singular
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooRealVar::m0_fixed_C2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooRealVar::sigma_cb_fixed_C2_2017
+ m0_fixed_C2_2017 sigma_cb_fixed_C2_2017 sig_gaus_sigma_C2_2017 sig_alpha_C2_2017 sig_n_C2_2017[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooAddPdf::SignalModel_C2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooCBShape::CB_final_C2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooGaussian::GS_final_C2_2017
+-----------------------------------Write signal workspace in: 
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooAddPdf::SignalModel_A1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooCBShape::CB_final_A1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::m3m
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::m0_fixed_A1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sigma_cb_fixed_A1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sig_alpha_A1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sig_n_A1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooGaussian::GS_final_A1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sig_gaus_sigma_A1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::cb_fraction_A1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing dataset Sig_A1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooAddPdf::SignalModel_B1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooCBShape::CB_final_B1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::m0_fixed_B1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sigma_cb_fixed_B1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sig_alpha_B1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sig_n_B1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooGaussian::GS_final_B1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sig_gaus_sigma_B1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::cb_fraction_B1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing dataset Sig_B1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooAddPdf::SignalModel_C1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooCBShape::CB_final_C1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::m0_fixed_C1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sigma_cb_fixed_C1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sig_alpha_C1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sig_n_C1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooGaussian::GS_final_C1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sig_gaus_sigma_C1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::cb_fraction_C1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing dataset Sig_C1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooAddPdf::SignalModel_A2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooCBShape::CB_final_A2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::m0_fixed_A2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sigma_cb_fixed_A2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sig_alpha_A2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sig_n_A2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooGaussian::GS_final_A2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sig_gaus_sigma_A2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::cb_fraction_A2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing dataset Sig_A2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooAddPdf::SignalModel_B2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooCBShape::CB_final_B2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::m0_fixed_B2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sigma_cb_fixed_B2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sig_alpha_B2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sig_n_B2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooGaussian::GS_final_B2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sig_gaus_sigma_B2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::cb_fraction_B2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing dataset Sig_B2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooAddPdf::SignalModel_C2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooCBShape::CB_final_C2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::m0_fixed_C2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sigma_cb_fixed_C2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sig_alpha_C2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sig_n_C2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooGaussian::GS_final_C2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::sig_gaus_sigma_C2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::cb_fraction_C2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing dataset Sig_C2_2017
+-----------------------------------Write signal workspace in: workspaces_2017/CMS_T3MSignal_13TeV.root file
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_A1_2017_Bkg_A1_2017_SB1) constructing test statistic for sub-range named SB1
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'NormalizationRangeForSB1' created with bounds [1.62,2]
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_bkg_fit_1par_A1_2017_Bkg_A1_2017_SB1' created with bounds [1.62,1.75]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_A1_2017_Bkg_A1_2017_SB1) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_A1_2017_Int[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_A1_2017_Bkg_A1_2017_SB2) constructing test statistic for sub-range named SB2
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'NormalizationRangeForSB2' created with bounds [1.62,2]
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_bkg_fit_1par_A1_2017_Bkg_A1_2017_SB2' created with bounds [1.8,2]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_A1_2017_Bkg_A1_2017_SB2) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_A1_2017_Int[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_bkg_fit_1par_A1_2017_Bkg_A1_2017) Summation contains a RooNLLVar, using its error level
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+ **********
+ **   13 **MIGRAD        1000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-5.27506 FROM MIGRAD    STATUS=INITIATE        8 CALLS           9 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  bkg_exp_offset_A1_2017   0.00000e+00   4.00000e+00   2.01358e-01   2.20547e-14
+   2  bkg_exp_slope_A1_2017  -1.00000e+00   7.00000e-01   2.24553e-01   3.77243e-02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-5.2839 FROM MIGRAD    STATUS=CONVERGED      24 CALLS          25 TOTAL
+                     EDM=1.50186e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  bkg_exp_offset_A1_2017  -3.77631e-02   2.82379e+01   2.01358e-01   2.20547e-14
+   2  bkg_exp_slope_A1_2017  -2.52930e+00   3.62809e+00   6.63177e-03  -1.21178e-03
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  9.130e+15  0.000e+00 
+  0.000e+00  1.253e+02 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.00000   1.000  0.000
+        2  0.00000   0.000  1.000
+ **********
+ **   18 **HESSE        1000
+ **********
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+  MNHESS FAILS AND WILL RETURN DIAGONAL MATRIX. 
+ FCN=-5.2839 FROM HESSE     STATUS=FAILED          5 CALLS          30 TOTAL
+                     EDM=1.50186e-05    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE     INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  bkg_exp_offset_A1_2017  -9.62163e+00   2.90420e+01   4.02716e-02  -1.88816e-03
+   2  bkg_exp_slope_A1_2017  -2.52930e+00   3.62809e+00   6.63177e-03  -8.37225e-03
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  3.652e+14  0.000e+00 
+  0.000e+00  1.253e+02 
+ERR MATRIX APPROXIMATE
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.00000   1.000  0.000
+        2  0.00000   0.000  1.000
+ ERR MATRIX APPROXIMATE
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(bkg_fit_1par_A1_2017) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ **********
+ **   23 **HESSE        1000
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-5.2839 FROM HESSE     STATUS=OK             10 CALLS          40 TOTAL
+                     EDM=1.50184e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  bkg_exp_offset_A1_2017  -3.77631e-02   2.42947e+01   4.02716e-02  -1.88816e-03
+   2  bkg_exp_slope_A1_2017  -2.52930e+00   3.62805e+00   1.32635e-03  -8.37225e-03
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  3.652e+14  2.174e+04 
+  2.174e+04  1.253e+02 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.00010   1.000  0.000
+        2  0.00010   0.000  1.000
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooGenericPdf::bkg_fit_1par_A1_2017
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_B1_2017_Bkg_B1_2017_SB1) constructing test statistic for sub-range named SB1
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_bkg_fit_1par_B1_2017_Bkg_B1_2017_SB1' created with bounds [1.62,1.75]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_B1_2017_Bkg_B1_2017_SB1) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_B1_2017_Int[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_B1_2017_Bkg_B1_2017_SB2) constructing test statistic for sub-range named SB2
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_bkg_fit_1par_B1_2017_Bkg_B1_2017_SB2' created with bounds [1.8,2]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_B1_2017_Bkg_B1_2017_SB2) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_B1_2017_Int[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_bkg_fit_1par_B1_2017_Bkg_B1_2017) Summation contains a RooNLLVar, using its error level
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+ **********
+ **   13 **MIGRAD        1000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-88.9978 FROM MIGRAD    STATUS=INITIATE       43 CALLS          44 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  bkg_exp_offset_B1_2017   2.10346e+00   2.00000e+00   0.00000e+00  -1.42109e-14
+   2  bkg_exp_slope_B1_2017  -1.77634e-05   5.00000e-01   0.00000e+00   2.99396e-03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ MINUIT WARNING IN HESSE
+ ============== Second derivative enters zero, param 1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+  MNHESS FAILS AND WILL RETURN DIAGONAL MATRIX. 
+ FCN=-88.9979 FROM MIGRAD    STATUS=CONVERGED      53 CALLS          54 TOTAL
+                     EDM=1.62606e-18    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  bkg_exp_offset_B1_2017   2.10346e+00   2.78913e+00   1.42109e-14   0.00000e+00
+   2  bkg_exp_slope_B1_2017   0.00000e+00   3.78259e+00  -3.44126e-03** at limit **
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  8.000e+00  0.000e+00 
+  0.000e+00  9.673e-18 
+ERR MATRIX APPROXIMATE
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.00000   1.000  0.000
+        2  0.00000   0.000  1.000
+ ERR MATRIX APPROXIMATE
+ **********
+ **   18 **HESSE        1000
+ **********
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+  MNHESS FAILS AND WILL RETURN DIAGONAL MATRIX. 
+ FCN=-88.9979 FROM HESSE     STATUS=FAILED          5 CALLS          59 TOTAL
+                     EDM=1.62606e-18    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE     INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  bkg_exp_offset_B1_2017  -2.84103e+00   4.85707e+00   1.42109e-14   2.11929e-01
+   2  bkg_exp_slope_B1_2017   0.00000e+00   3.78259e+00  -3.44126e-03   1.57080e+00
+                                 WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  8.000e+00  0.000e+00 
+  0.000e+00  9.673e-18 
+ERR MATRIX APPROXIMATE
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.00000   1.000  0.000
+        2  0.00000   0.000  1.000
+ ERR MATRIX APPROXIMATE
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(bkg_fit_1par_B1_2017) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ **********
+ **   23 **HESSE        1000
+ **********
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+  MNHESS FAILS AND WILL RETURN DIAGONAL MATRIX. 
+ FCN=-88.9979 FROM HESSE     STATUS=FAILED          5 CALLS          64 TOTAL
+                     EDM=1.62606e-18    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE     INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  bkg_exp_offset_B1_2017  -2.84103e+00   1.04943e+01   5.00000e-02   2.11929e-01
+   2  bkg_exp_slope_B1_2017   0.00000e+00   3.78259e+00  -3.44126e-03   1.57080e+00
+                                 WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  8.407e+12  0.000e+00 
+  0.000e+00  9.673e-18 
+ERR MATRIX APPROXIMATE
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.00000   1.000  0.000
+        2  0.00000   0.000  1.000
+ ERR MATRIX APPROXIMATE
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooGenericPdf::bkg_fit_1par_B1_2017
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_C1_2017_Bkg_C1_2017_SB1) constructing test statistic for sub-range named SB1
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_bkg_fit_1par_C1_2017_Bkg_C1_2017_SB1' created with bounds [1.62,1.75]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_C1_2017_Bkg_C1_2017_SB1) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_C1_2017_Int[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_C1_2017_Bkg_C1_2017_SB2) constructing test statistic for sub-range named SB2
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_bkg_fit_1par_C1_2017_Bkg_C1_2017_SB2' created with bounds [1.8,2]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_C1_2017_Bkg_C1_2017_SB2) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_C1_2017_Int[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_bkg_fit_1par_C1_2017_Bkg_C1_2017) Summation contains a RooNLLVar, using its error level
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+ **********
+ **   13 **MIGRAD        1000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-10.7974 FROM MIGRAD    STATUS=INITIATE       53 CALLS          54 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  bkg_exp_offset_C1_2017   0.00000e+00   2.00000e+00   0.00000e+00   0.00000e+00
+   2  bkg_exp_slope_C1_2017  -5.00000e+00   5.00000e-01   0.00000e+00  -1.45706e-01
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ MINUIT WARNING IN HESSE
+ ============== Second derivative enters zero, param 1
+ MINUIT WARNING IN HESSE   
+ ============== Negative diagonal element 1 in Error Matrix
+ MINUIT WARNING IN HESSE   
+ ============== 1 added to diagonal of error matrix
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-10.9498 FROM MIGRAD    STATUS=CONVERGED      77 CALLS          78 TOTAL
+                     EDM=6.85984e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  bkg_exp_offset_C1_2017   0.00000e+00   8.41471e+00   5.00000e-01  -1.77636e-14
+   2  bkg_exp_slope_C1_2017  -3.91451e-01   1.23388e+00   1.29206e-02  -8.41677e-04
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  1.000e+02 -3.945e-12 
+ -3.945e-12  2.126e+00 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.00000   1.000 -0.000
+        2  0.00000  -0.000  1.000
+ **********
+ **   18 **HESSE        1000
+ **********
+ MINUIT WARNING IN HESSE   
+ ============== Negative diagonal element 1 in Error Matrix
+ MINUIT WARNING IN HESSE   
+ ============== 1 added to diagonal of error matrix
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-10.9498 FROM HESSE     STATUS=OK             12 CALLS          90 TOTAL
+                     EDM=6.857e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  bkg_exp_offset_C1_2017   0.00000e+00   8.41471e+00   5.00000e-01   0.00000e+00
+   2  bkg_exp_slope_C1_2017  -3.91451e-01   1.23388e+00   2.58412e-03   1.05422e+00
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  1.000e+02 -1.973e-11 
+ -1.973e-11  2.126e+00 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.00000   1.000 -0.000
+        2  0.00000  -0.000  1.000
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(bkg_fit_1par_C1_2017) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ **********
+ **   23 **HESSE        1000
+ **********
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+  MNHESS FAILS AND WILL RETURN DIAGONAL MATRIX. 
+ FCN=-10.9498 FROM HESSE     STATUS=FAILED          5 CALLS          95 TOTAL
+                     EDM=6.857e-07    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE     INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  bkg_exp_offset_C1_2017  -4.88177e+00   8.41471e+00   5.00000e-01   0.00000e+00
+   2  bkg_exp_slope_C1_2017  -3.91451e-01   3.15381e+00   2.58412e-03   1.05422e+00
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  1.000e+02  0.000e+00 
+  0.000e+00  6.713e+01 
+ERR MATRIX APPROXIMATE
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.00000   1.000  0.000
+        2  0.00000   0.000  1.000
+ ERR MATRIX APPROXIMATE
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooGenericPdf::bkg_fit_1par_C1_2017
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_A2_2017_Bkg_A2_2017_SB1) constructing test statistic for sub-range named SB1
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_bkg_fit_1par_A2_2017_Bkg_A2_2017_SB1' created with bounds [1.62,1.75]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_A2_2017_Bkg_A2_2017_SB1) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_A2_2017_Int[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_A2_2017_Bkg_A2_2017_SB2) constructing test statistic for sub-range named SB2
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_bkg_fit_1par_A2_2017_Bkg_A2_2017_SB2' created with bounds [1.8,2]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_A2_2017_Bkg_A2_2017_SB2) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_A2_2017_Int[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_bkg_fit_1par_A2_2017_Bkg_A2_2017) Summation contains a RooNLLVar, using its error level
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+ **********
+ **   13 **MIGRAD        1000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-637.341 FROM MIGRAD    STATUS=INITIATE       40 CALLS          41 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  bkg_exp_offset_A2_2017  -3.42647e+00   2.00000e+00   0.00000e+00   0.00000e+00
+   2  bkg_exp_slope_A2_2017  -1.02204e+00   5.00000e-01   1.44964e+00   8.03414e-02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ MINUIT WARNING IN HESSE   
+ ============== Negative diagonal element 1 in Error Matrix
+ MINUIT WARNING IN HESSE   
+ ============== 1 added to diagonal of error matrix
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-637.342 FROM MIGRAD    STATUS=CONVERGED      57 CALLS          58 TOTAL
+                     EDM=1.28362e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  bkg_exp_offset_A2_2017  -3.42647e+00   7.90532e+00   5.00000e-02   0.00000e+00
+   2  bkg_exp_slope_A2_2017  -1.07617e+00   1.03507e+00   9.48294e-03  -2.42930e-03
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  8.826e+01 -2.256e-09 
+ -2.256e-09  1.153e+00 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.00000   1.000 -0.000
+        2  0.00000  -0.000  1.000
+ **********
+ **   18 **HESSE        1000
+ **********
+ MINUIT WARNING IN HESSE   
+ ============== Negative diagonal element 1 in Error Matrix
+ MINUIT WARNING IN HESSE   
+ ============== 1 added to diagonal of error matrix
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-637.342 FROM HESSE     STATUS=OK             10 CALLS          68 TOTAL
+                     EDM=1.28339e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  bkg_exp_offset_A2_2017  -3.42647e+00   7.90532e+00   5.00000e-02  -3.49733e-01
+   2  bkg_exp_slope_A2_2017  -1.07617e+00   1.03507e+00   3.79318e-04   6.96159e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  8.826e+01  0.000e+00 
+  0.000e+00  1.153e+00 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.00000   1.000  0.000
+        2  0.00000   0.000  1.000
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(bkg_fit_1par_A2_2017) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ **********
+ **   23 **HESSE        1000
+ **********
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+  MNHESS FAILS AND WILL RETURN DIAGONAL MATRIX. 
+ FCN=-637.342 FROM HESSE     STATUS=FAILED          5 CALLS          73 TOTAL
+                     EDM=1.28339e-06    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE     INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  bkg_exp_offset_A2_2017  -7.51104e+00   7.90532e+00   5.00000e-02  -3.49733e-01
+   2  bkg_exp_slope_A2_2017  -1.07617e+00   1.15819e+00   3.79318e-04   6.96159e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  8.826e+01  0.000e+00 
+  0.000e+00  1.473e+00 
+ERR MATRIX APPROXIMATE
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.00000   1.000  0.000
+        2  0.00000   0.000  1.000
+ ERR MATRIX APPROXIMATE
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooGenericPdf::bkg_fit_1par_A2_2017
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_B2_2017_Bkg_B2_2017_SB1) constructing test statistic for sub-range named SB1
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_bkg_fit_1par_B2_2017_Bkg_B2_2017_SB1' created with bounds [1.62,1.75]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_B2_2017_Bkg_B2_2017_SB1) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_B2_2017_Int[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_B2_2017_Bkg_B2_2017_SB2) constructing test statistic for sub-range named SB2
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_bkg_fit_1par_B2_2017_Bkg_B2_2017_SB2' created with bounds [1.8,2]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_B2_2017_Bkg_B2_2017_SB2) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_B2_2017_Int[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_bkg_fit_1par_B2_2017_Bkg_B2_2017) Summation contains a RooNLLVar, using its error level
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+ **********
+ **   13 **MIGRAD        1000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-2877.78 FROM MIGRAD    STATUS=INITIATE       53 CALLS          54 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  bkg_exp_offset_B2_2017   0.00000e+00   2.00000e+00  -0.00000e+00   4.54747e-13
+   2  bkg_exp_slope_B2_2017  -5.00000e+00   5.00000e-01   0.00000e+00  -2.52914e+01
+                               ERR DEF= 0.5
+ MINUIT WARNING IN MIGRAD  
+ ============== Negative diagonal element 2 in Error Matrix
+ MINUIT WARNING IN MIGRAD  
+ ============== 1.32476 added to diagonal of error matrix
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ MINUIT WARNING IN HESSE   
+ ============== Negative diagonal element 1 in Error Matrix
+ MINUIT WARNING IN HESSE   
+ ============== 1 added to diagonal of error matrix
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-2895.6 FROM MIGRAD    STATUS=CONVERGED      97 CALLS          98 TOTAL
+                     EDM=1.03611e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  bkg_exp_offset_B2_2017  -5.29354e-13   8.41471e+00   5.00000e-01   0.00000e+00
+   2  bkg_exp_slope_B2_2017  -1.86972e+00   5.10315e-01   7.19273e-03   5.51151e-03
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  1.000e+02 -1.199e-10 
+ -1.199e-10  2.634e-01 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.00000   1.000 -0.000
+        2  0.00000  -0.000  1.000
+ **********
+ **   18 **HESSE        1000
+ **********
+ MINUIT WARNING IN HESSE   
+ ============== Negative diagonal element 1 in Error Matrix
+ MINUIT WARNING IN HESSE   
+ ============== 1 added to diagonal of error matrix
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-2895.6 FROM HESSE     STATUS=OK             10 CALLS         108 TOTAL
+                     EDM=1.03592e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  bkg_exp_offset_B2_2017  -5.29354e-13   8.41471e+00   5.00000e-01  -5.30019e-14
+   2  bkg_exp_slope_B2_2017  -1.86972e+00   5.10311e-01   2.87709e-04  -3.52789e+00
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  1.000e+02 -2.996e-09 
+ -2.996e-09  2.634e-01 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.00000   1.000 -0.000
+        2  0.00000  -0.000  1.000
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(bkg_fit_1par_B2_2017) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ **********
+ **   23 **HESSE        1000
+ **********
+ MINUIT WARNING IN HESSE   
+ ============== Negative diagonal element 1 in Error Matrix
+ MINUIT WARNING IN HESSE   
+ ============== 1 added to diagonal of error matrix
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-2895.6 FROM HESSE     STATUS=OK             10 CALLS         118 TOTAL
+                     EDM=1.03593e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  bkg_exp_offset_B2_2017  -5.29354e-13   8.41471e+00   5.00000e-01  -5.30019e-14
+   2  bkg_exp_slope_B2_2017  -1.86972e+00   5.10313e-01   5.75418e-05  -3.52789e+00
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  1.000e+02 -1.498e-08 
+ -1.498e-08  2.634e-01 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.00000   1.000 -0.000
+        2  0.00000  -0.000  1.000
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooGenericPdf::bkg_fit_1par_B2_2017
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_C2_2017_Bkg_C2_2017_SB1) constructing test statistic for sub-range named SB1
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_bkg_fit_1par_C2_2017_Bkg_C2_2017_SB1' created with bounds [1.62,1.75]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_C2_2017_Bkg_C2_2017_SB1) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_C2_2017_Int[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_C2_2017_Bkg_C2_2017_SB2) constructing test statistic for sub-range named SB2
+[#1] INFO:Eval -- RooRealVar::setRange(m3m) new range named 'fit_nll_bkg_fit_1par_C2_2017_Bkg_C2_2017_SB2' created with bounds [1.8,2]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_bkg_fit_1par_C2_2017_Bkg_C2_2017_SB2) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_C2_2017_Int[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_bkg_fit_1par_C2_2017_Bkg_C2_2017) Summation contains a RooNLLVar, using its error level
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+ **********
+ **   13 **MIGRAD        1000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-492.489 FROM MIGRAD    STATUS=INITIATE        8 CALLS           9 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  bkg_exp_offset_C2_2017   0.00000e+00   2.00000e+00   2.01358e-01   9.20615e-13
+   2  bkg_exp_slope_C2_2017  -5.00000e+00   5.00000e-01   2.35496e-01  -2.80565e+00
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ MINUIT WARNING IN HESSE   
+ ============== Negative diagonal element 1 in Error Matrix
+ MINUIT WARNING IN HESSE   
+ ============== 1 added to diagonal of error matrix
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-493.817 FROM MIGRAD    STATUS=CONVERGED      41 CALLS          42 TOTAL
+                     EDM=7.41394e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  bkg_exp_offset_C2_2017  -4.01113e-02   8.41464e+00   5.00000e-01   1.13687e-13
+   2  bkg_exp_slope_C2_2017  -2.93475e+00   1.12639e+00   6.68652e-03  -2.15481e-05
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  1.000e+02  0.000e+00 
+  0.000e+00  1.338e+00 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.00000   1.000  0.000
+        2  0.00000   0.000  1.000
+ **********
+ **   18 **HESSE        1000
+ **********
+ MINUIT WARNING IN HESSE   
+ ============== Negative diagonal element 1 in Error Matrix
+ MINUIT WARNING IN HESSE   
+ ============== 1 added to diagonal of error matrix
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-493.817 FROM HESSE     STATUS=OK             10 CALLS          52 TOTAL
+                     EDM=7.40785e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  bkg_exp_offset_C2_2017  -4.01113e-02   8.41464e+00   5.00000e-01  -4.01114e-03
+   2  bkg_exp_slope_C2_2017  -2.93475e+00   1.12638e+00   2.67461e-04   5.70150e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  1.000e+02 -1.965e-09 
+ -1.965e-09  1.338e+00 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.00000   1.000 -0.000
+        2  0.00000  -0.000  1.000
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(bkg_fit_1par_C2_2017) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ **********
+ **   23 **HESSE        1000
+ **********
+ MINUIT WARNING IN HESSE   
+ ============== Negative diagonal element 1 in Error Matrix
+ MINUIT WARNING IN HESSE   
+ ============== 1 added to diagonal of error matrix
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-493.817 FROM HESSE     STATUS=OK             10 CALLS          62 TOTAL
+                     EDM=7.40824e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  bkg_exp_offset_C2_2017  -4.01113e-02   8.41464e+00   5.00000e-01  -4.01114e-03
+   2  bkg_exp_slope_C2_2017  -2.93475e+00   1.12638e+00   5.34922e-05   5.70150e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  1.000e+02  0.000e+00 
+  0.000e+00  1.338e+00 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.00000   1.000  0.000
+        2  0.00000   0.000  1.000
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:ObjectHandling -- RooWorkspace::import(HLFactory_ws) importing RooGenericPdf::bkg_fit_1par_C2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing dataset Bkg_A1_2017
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(w_all) changing name of dataset from  Bkg_A1_2017 to data_obs_A1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::m3m
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooGenericPdf::bkg_fit_1par_A1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::bkg_exp_slope_A1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::bkg_exp_offset_A1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing dataset Bkg_A1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing dataset Bkg_B1_2017
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(w_all) changing name of dataset from  Bkg_B1_2017 to data_obs_B1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooGenericPdf::bkg_fit_1par_B1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::bkg_exp_slope_B1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::bkg_exp_offset_B1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing dataset Bkg_B1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing dataset Bkg_C1_2017
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(w_all) changing name of dataset from  Bkg_C1_2017 to data_obs_C1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooGenericPdf::bkg_fit_1par_C1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::bkg_exp_slope_C1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::bkg_exp_offset_C1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing dataset Bkg_C1_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing dataset Bkg_A2_2017
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(w_all) changing name of dataset from  Bkg_A2_2017 to data_obs_A2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooGenericPdf::bkg_fit_1par_A2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::bkg_exp_slope_A2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::bkg_exp_offset_A2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing dataset Bkg_A2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing dataset Bkg_B2_2017
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(w_all) changing name of dataset from  Bkg_B2_2017 to data_obs_B2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooGenericPdf::bkg_fit_1par_B2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::bkg_exp_slope_B2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::bkg_exp_offset_B2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing dataset Bkg_B2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing dataset Bkg_C2_2017
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(w_all) changing name of dataset from  Bkg_C2_2017 to data_obs_C2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooGenericPdf::bkg_fit_1par_C2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::bkg_exp_slope_C2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing RooRealVar::bkg_exp_offset_C2_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w_all) importing dataset Bkg_C2_2017
+category  A1_2017  Observed:  6
+Write data card in: datacards/CMS_T3MSignal_13TeV_A1_2017.txt file
+category  B1_2017  Observed:  59
+Write data card in: datacards/CMS_T3MSignal_13TeV_B1_2017.txt file
+category  C1_2017  Observed:  8
+Write data card in: datacards/CMS_T3MSignal_13TeV_C1_2017.txt file
+category  A2_2017  Observed:  398
+Write data card in: datacards/CMS_T3MSignal_13TeV_A2_2017.txt file
+category  B2_2017  Observed:  1859
+Write data card in: datacards/CMS_T3MSignal_13TeV_B2_2017.txt file
+category  C2_2017  Observed:  326
+Write data card in: datacards/CMS_T3MSignal_13TeV_C2_2017.txt file
+ bkg fit 
+[#1] INFO:InputArguments -- RooAbsData::plotOn(Sig_A1_2017) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_A1_2017) p.d.f was fitted in range and no explicit plot,norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_A1_2017) only plotting range 'fit_nll_SignalModel_A1_2017_Sig_A1_2017'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_A1_2017) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SignalModel_A1_2017_Sig_A1_2017'
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 3 events out of 6 total events
+[#1] INFO:Plotting -- RooPlot::updateFitRangeNorm: New event count of 6 will supercede previous event count of 0.761955 for normalization of PDF projections
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(bkg_fit_1par_A1_2017) p.d.f was fitted in range and no explicit norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(bkg_fit_1par_A1_2017) only plotting range 'fullRange'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(bkg_fit_1par_A1_2017) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_bkg_fit_1par_A1_2017_Bkg_A1_2017_SB1,fit_nll_bkg_fit_1par_A1_2017_Bkg_A1_2017_SB2'
+[#0] WARNING:Plotting -- RooHist::getFitRangeNEvt() WARNING: Number of normalization events associated to histogram is not equal to number of events in histogram
+                           due cut made in RooAbsData::plotOn() call. Automatic normalization over sub-range of plot variable assumes
+                           that the effect of that cut is uniform across the plot, which may be an incorrect assumption. To be sure of
+                           correct normalization explicit pass normalization information to RooAbsPdf::plotOn() call using Normalization()
+[#0] WARNING:Plotting -- RooHist::getFitRangeNEvt() WARNING: Number of normalization events associated to histogram is not equal to number of events in histogram
+                           due cut made in RooAbsData::plotOn() call. Automatic normalization over sub-range of plot variable assumes
+                           that the effect of that cut is uniform across the plot, which may be an incorrect assumption. To be sure of
+                           correct normalization explicit pass normalization information to RooAbsPdf::plotOn() call using Normalization()
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_A1_2017_Int[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_A1_2017_Int[m3m|fit_nll_bkg_fit_1par_A1_2017_Bkg_A1_2017_SB1]_Norm[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_A1_2017_Int[m3m|fit_nll_bkg_fit_1par_A1_2017_Bkg_A1_2017_SB2]_Norm[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+frame_m3m_4f358c0[m3m] = (RooHist::h_Sig_A1_2017,RooCurve::SignalModel_A1_2017_Norm[m3m]_Range[fit_nll_SignalModel_A1_2017_Sig_A1_2017]_NormRange[fit_nll_SignalModel_A1_2017_Sig_A1_2017],RooHist::h_Bkg_A1_2017_CutRange[SB1,SB2],RooCurve::bkg_fit_1par_A1_2017_Norm[m3m]_Range[fullRange]_NormRange[fullRange],TPaveText::bkg_fit_1par_A1_2017_paramBox)
+[#1] INFO:InputArguments -- RooAbsData::plotOn(Sig_B1_2017) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_B1_2017) p.d.f was fitted in range and no explicit plot,norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_B1_2017) only plotting range 'fit_nll_SignalModel_B1_2017_Sig_B1_2017'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_B1_2017) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SignalModel_B1_2017_Sig_B1_2017'
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 47 events out of 59 total events
+[#1] INFO:Plotting -- RooPlot::updateFitRangeNorm: New event count of 59 will supercede previous event count of 3.29895 for normalization of PDF projections
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(bkg_fit_1par_B1_2017) p.d.f was fitted in range and no explicit norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(bkg_fit_1par_B1_2017) only plotting range 'fullRange'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(bkg_fit_1par_B1_2017) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_bkg_fit_1par_B1_2017_Bkg_B1_2017_SB1,fit_nll_bkg_fit_1par_B1_2017_Bkg_B1_2017_SB2'
+[#0] WARNING:Plotting -- RooHist::getFitRangeNEvt() WARNING: Number of normalization events associated to histogram is not equal to number of events in histogram
+                           due cut made in RooAbsData::plotOn() call. Automatic normalization over sub-range of plot variable assumes
+                           that the effect of that cut is uniform across the plot, which may be an incorrect assumption. To be sure of
+                           correct normalization explicit pass normalization information to RooAbsPdf::plotOn() call using Normalization()
+[#0] WARNING:Plotting -- RooHist::getFitRangeNEvt() WARNING: Number of normalization events associated to histogram is not equal to number of events in histogram
+                           due cut made in RooAbsData::plotOn() call. Automatic normalization over sub-range of plot variable assumes
+                           that the effect of that cut is uniform across the plot, which may be an incorrect assumption. To be sure of
+                           correct normalization explicit pass normalization information to RooAbsPdf::plotOn() call using Normalization()
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_B1_2017_Int[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_B1_2017_Int[m3m|fit_nll_bkg_fit_1par_B1_2017_Bkg_B1_2017_SB1]_Norm[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_B1_2017_Int[m3m|fit_nll_bkg_fit_1par_B1_2017_Bkg_B1_2017_SB2]_Norm[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+frame_m3m_379ecb0[m3m] = (RooHist::h_Sig_B1_2017,RooCurve::SignalModel_B1_2017_Norm[m3m]_Range[fit_nll_SignalModel_B1_2017_Sig_B1_2017]_NormRange[fit_nll_SignalModel_B1_2017_Sig_B1_2017],RooHist::h_Bkg_B1_2017_CutRange[SB1,SB2],RooCurve::bkg_fit_1par_B1_2017_Norm[m3m]_Range[fullRange]_NormRange[fullRange],TPaveText::bkg_fit_1par_B1_2017_paramBox)
+[#1] INFO:InputArguments -- RooAbsData::plotOn(Sig_C1_2017) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_C1_2017) p.d.f was fitted in range and no explicit plot,norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_C1_2017) only plotting range 'fit_nll_SignalModel_C1_2017_Sig_C1_2017'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_C1_2017) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SignalModel_C1_2017_Sig_C1_2017'
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 6 events out of 8 total events
+[#1] INFO:Plotting -- RooPlot::updateFitRangeNorm: New event count of 8 will supercede previous event count of 0.908447 for normalization of PDF projections
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(bkg_fit_1par_C1_2017) p.d.f was fitted in range and no explicit norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(bkg_fit_1par_C1_2017) only plotting range 'fullRange'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(bkg_fit_1par_C1_2017) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_bkg_fit_1par_C1_2017_Bkg_C1_2017_SB1,fit_nll_bkg_fit_1par_C1_2017_Bkg_C1_2017_SB2'
+[#0] WARNING:Plotting -- RooHist::getFitRangeNEvt() WARNING: Number of normalization events associated to histogram is not equal to number of events in histogram
+                           due cut made in RooAbsData::plotOn() call. Automatic normalization over sub-range of plot variable assumes
+                           that the effect of that cut is uniform across the plot, which may be an incorrect assumption. To be sure of
+                           correct normalization explicit pass normalization information to RooAbsPdf::plotOn() call using Normalization()
+[#0] WARNING:Plotting -- RooHist::getFitRangeNEvt() WARNING: Number of normalization events associated to histogram is not equal to number of events in histogram
+                           due cut made in RooAbsData::plotOn() call. Automatic normalization over sub-range of plot variable assumes
+                           that the effect of that cut is uniform across the plot, which may be an incorrect assumption. To be sure of
+                           correct normalization explicit pass normalization information to RooAbsPdf::plotOn() call using Normalization()
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_C1_2017_Int[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_C1_2017_Int[m3m|fit_nll_bkg_fit_1par_C1_2017_Bkg_C1_2017_SB1]_Norm[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_C1_2017_Int[m3m|fit_nll_bkg_fit_1par_C1_2017_Bkg_C1_2017_SB2]_Norm[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+frame_m3m_3fcdb00[m3m] = (RooHist::h_Sig_C1_2017,RooCurve::SignalModel_C1_2017_Norm[m3m]_Range[fit_nll_SignalModel_C1_2017_Sig_C1_2017]_NormRange[fit_nll_SignalModel_C1_2017_Sig_C1_2017],RooHist::h_Bkg_C1_2017_CutRange[SB1,SB2],RooCurve::bkg_fit_1par_C1_2017_Norm[m3m]_Range[fullRange]_NormRange[fullRange],TPaveText::bkg_fit_1par_C1_2017_paramBox)
+[#1] INFO:InputArguments -- RooAbsData::plotOn(Sig_A2_2017) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_A2_2017) p.d.f was fitted in range and no explicit plot,norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_A2_2017) only plotting range 'fit_nll_SignalModel_A2_2017_Sig_A2_2017'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_A2_2017) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SignalModel_A2_2017_Sig_A2_2017'
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 335 events out of 398 total events
+[#1] INFO:Plotting -- RooPlot::updateFitRangeNorm: New event count of 398 will supercede previous event count of 8.40837 for normalization of PDF projections
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(bkg_fit_1par_A2_2017) p.d.f was fitted in range and no explicit norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(bkg_fit_1par_A2_2017) only plotting range 'fullRange'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(bkg_fit_1par_A2_2017) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_bkg_fit_1par_A2_2017_Bkg_A2_2017_SB1,fit_nll_bkg_fit_1par_A2_2017_Bkg_A2_2017_SB2'
+[#0] WARNING:Plotting -- RooHist::getFitRangeNEvt() WARNING: Number of normalization events associated to histogram is not equal to number of events in histogram
+                           due cut made in RooAbsData::plotOn() call. Automatic normalization over sub-range of plot variable assumes
+                           that the effect of that cut is uniform across the plot, which may be an incorrect assumption. To be sure of
+                           correct normalization explicit pass normalization information to RooAbsPdf::plotOn() call using Normalization()
+[#0] WARNING:Plotting -- RooHist::getFitRangeNEvt() WARNING: Number of normalization events associated to histogram is not equal to number of events in histogram
+                           due cut made in RooAbsData::plotOn() call. Automatic normalization over sub-range of plot variable assumes
+                           that the effect of that cut is uniform across the plot, which may be an incorrect assumption. To be sure of
+                           correct normalization explicit pass normalization information to RooAbsPdf::plotOn() call using Normalization()
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_A2_2017_Int[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_A2_2017_Int[m3m|fit_nll_bkg_fit_1par_A2_2017_Bkg_A2_2017_SB1]_Norm[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_A2_2017_Int[m3m|fit_nll_bkg_fit_1par_A2_2017_Bkg_A2_2017_SB2]_Norm[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+frame_m3m_3fd37e0[m3m] = (RooHist::h_Sig_A2_2017,RooCurve::SignalModel_A2_2017_Norm[m3m]_Range[fit_nll_SignalModel_A2_2017_Sig_A2_2017]_NormRange[fit_nll_SignalModel_A2_2017_Sig_A2_2017],RooHist::h_Bkg_A2_2017_CutRange[SB1,SB2],RooCurve::bkg_fit_1par_A2_2017_Norm[m3m]_Range[fullRange]_NormRange[fullRange],TPaveText::bkg_fit_1par_A2_2017_paramBox)
+[#1] INFO:InputArguments -- RooAbsData::plotOn(Sig_B2_2017) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_B2_2017) p.d.f was fitted in range and no explicit plot,norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_B2_2017) only plotting range 'fit_nll_SignalModel_B2_2017_Sig_B2_2017'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_B2_2017) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SignalModel_B2_2017_Sig_B2_2017'
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 1577 events out of 1859 total events
+[#1] INFO:Plotting -- RooPlot::updateFitRangeNorm: New event count of 1859 will supercede previous event count of 18.279 for normalization of PDF projections
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(bkg_fit_1par_B2_2017) p.d.f was fitted in range and no explicit norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(bkg_fit_1par_B2_2017) only plotting range 'fullRange'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(bkg_fit_1par_B2_2017) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_bkg_fit_1par_B2_2017_Bkg_B2_2017_SB1,fit_nll_bkg_fit_1par_B2_2017_Bkg_B2_2017_SB2'
+[#0] WARNING:Plotting -- RooHist::getFitRangeNEvt() WARNING: Number of normalization events associated to histogram is not equal to number of events in histogram
+                           due cut made in RooAbsData::plotOn() call. Automatic normalization over sub-range of plot variable assumes
+                           that the effect of that cut is uniform across the plot, which may be an incorrect assumption. To be sure of
+                           correct normalization explicit pass normalization information to RooAbsPdf::plotOn() call using Normalization()
+[#0] WARNING:Plotting -- RooHist::getFitRangeNEvt() WARNING: Number of normalization events associated to histogram is not equal to number of events in histogram
+                           due cut made in RooAbsData::plotOn() call. Automatic normalization over sub-range of plot variable assumes
+                           that the effect of that cut is uniform across the plot, which may be an incorrect assumption. To be sure of
+                           correct normalization explicit pass normalization information to RooAbsPdf::plotOn() call using Normalization()
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_B2_2017_Int[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_B2_2017_Int[m3m|fit_nll_bkg_fit_1par_B2_2017_Bkg_B2_2017_SB1]_Norm[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_B2_2017_Int[m3m|fit_nll_bkg_fit_1par_B2_2017_Bkg_B2_2017_SB2]_Norm[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+frame_m3m_3fbb2d0[m3m] = (RooHist::h_Sig_B2_2017,RooCurve::SignalModel_B2_2017_Norm[m3m]_Range[fit_nll_SignalModel_B2_2017_Sig_B2_2017]_NormRange[fit_nll_SignalModel_B2_2017_Sig_B2_2017],RooHist::h_Bkg_B2_2017_CutRange[SB1,SB2],RooCurve::bkg_fit_1par_B2_2017_Norm[m3m]_Range[fullRange]_NormRange[fullRange],TPaveText::bkg_fit_1par_B2_2017_paramBox)
+[#1] INFO:InputArguments -- RooAbsData::plotOn(Sig_C2_2017) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_C2_2017) p.d.f was fitted in range and no explicit plot,norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_C2_2017) only plotting range 'fit_nll_SignalModel_C2_2017_Sig_C2_2017'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_C2_2017) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SignalModel_C2_2017_Sig_C2_2017'
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 269 events out of 326 total events
+[#1] INFO:Plotting -- RooPlot::updateFitRangeNorm: New event count of 326 will supercede previous event count of 5.82899 for normalization of PDF projections
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(bkg_fit_1par_C2_2017) p.d.f was fitted in range and no explicit norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(bkg_fit_1par_C2_2017) only plotting range 'fullRange'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(bkg_fit_1par_C2_2017) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_bkg_fit_1par_C2_2017_Bkg_C2_2017_SB1,fit_nll_bkg_fit_1par_C2_2017_Bkg_C2_2017_SB2'
+[#0] WARNING:Plotting -- RooHist::getFitRangeNEvt() WARNING: Number of normalization events associated to histogram is not equal to number of events in histogram
+                           due cut made in RooAbsData::plotOn() call. Automatic normalization over sub-range of plot variable assumes
+                           that the effect of that cut is uniform across the plot, which may be an incorrect assumption. To be sure of
+                           correct normalization explicit pass normalization information to RooAbsPdf::plotOn() call using Normalization()
+[#0] WARNING:Plotting -- RooHist::getFitRangeNEvt() WARNING: Number of normalization events associated to histogram is not equal to number of events in histogram
+                           due cut made in RooAbsData::plotOn() call. Automatic normalization over sub-range of plot variable assumes
+                           that the effect of that cut is uniform across the plot, which may be an incorrect assumption. To be sure of
+                           correct normalization explicit pass normalization information to RooAbsPdf::plotOn() call using Normalization()
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_C2_2017_Int[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_C2_2017_Int[m3m|fit_nll_bkg_fit_1par_C2_2017_Bkg_C2_2017_SB1]_Norm[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(bkg_fit_1par_C2_2017_Int[m3m|fit_nll_bkg_fit_1par_C2_2017_Bkg_C2_2017_SB2]_Norm[m3m]) using numeric integrator RooIntegrator1D to calculate Int(m3m)
+frame_m3m_3fbd030[m3m] = (RooHist::h_Sig_C2_2017,RooCurve::SignalModel_C2_2017_Norm[m3m]_Range[fit_nll_SignalModel_C2_2017_Sig_C2_2017]_NormRange[fit_nll_SignalModel_C2_2017_Sig_C2_2017],RooHist::h_Bkg_C2_2017_CutRange[SB1,SB2],RooCurve::bkg_fit_1par_C2_2017_Norm[m3m]_Range[fullRange]_NormRange[fullRange],TPaveText::bkg_fit_1par_C2_2017_paramBox)
+[#1] INFO:InputArguments -- RooAbsData::plotOn(Sig_A1_2017) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_A1_2017) p.d.f was fitted in range and no explicit plot,norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_A1_2017) only plotting range 'fit_nll_SignalModel_A1_2017_Sig_A1_2017'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_A1_2017) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SignalModel_A1_2017_Sig_A1_2017'
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: Category A1_2017
+frame_m3m_3fbac80[m3m] = (RooHist::h_Sig_A1_2017,RooCurve::SignalModel_A1_2017_Norm[m3m]_Range[fit_nll_SignalModel_A1_2017_Sig_A1_2017]_NormRange[fit_nll_SignalModel_A1_2017_Sig_A1_2017],TPaveText::SignalModel_A1_2017_paramBox)
+[#1] INFO:InputArguments -- RooAbsData::plotOn(Sig_B1_2017) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_B1_2017) p.d.f was fitted in range and no explicit plot,norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_B1_2017) only plotting range 'fit_nll_SignalModel_B1_2017_Sig_B1_2017'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_B1_2017) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SignalModel_B1_2017_Sig_B1_2017'
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: Category B1_2017
+frame_m3m_51be330[m3m] = (RooHist::h_Sig_B1_2017,RooCurve::SignalModel_B1_2017_Norm[m3m]_Range[fit_nll_SignalModel_B1_2017_Sig_B1_2017]_NormRange[fit_nll_SignalModel_B1_2017_Sig_B1_2017],TPaveText::SignalModel_B1_2017_paramBox)
+[#1] INFO:InputArguments -- RooAbsData::plotOn(Sig_C1_2017) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_C1_2017) p.d.f was fitted in range and no explicit plot,norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_C1_2017) only plotting range 'fit_nll_SignalModel_C1_2017_Sig_C1_2017'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_C1_2017) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SignalModel_C1_2017_Sig_C1_2017'
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: Category C1_2017
+frame_m3m_51badb0[m3m] = (RooHist::h_Sig_C1_2017,RooCurve::SignalModel_C1_2017_Norm[m3m]_Range[fit_nll_SignalModel_C1_2017_Sig_C1_2017]_NormRange[fit_nll_SignalModel_C1_2017_Sig_C1_2017],TPaveText::SignalModel_C1_2017_paramBox)
+[#1] INFO:InputArguments -- RooAbsData::plotOn(Sig_A2_2017) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_A2_2017) p.d.f was fitted in range and no explicit plot,norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_A2_2017) only plotting range 'fit_nll_SignalModel_A2_2017_Sig_A2_2017'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_A2_2017) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SignalModel_A2_2017_Sig_A2_2017'
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: Category A2_2017
+frame_m3m_51cf5b0[m3m] = (RooHist::h_Sig_A2_2017,RooCurve::SignalModel_A2_2017_Norm[m3m]_Range[fit_nll_SignalModel_A2_2017_Sig_A2_2017]_NormRange[fit_nll_SignalModel_A2_2017_Sig_A2_2017],TPaveText::SignalModel_A2_2017_paramBox)
+[#1] INFO:InputArguments -- RooAbsData::plotOn(Sig_B2_2017) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_B2_2017) p.d.f was fitted in range and no explicit plot,norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_B2_2017) only plotting range 'fit_nll_SignalModel_B2_2017_Sig_B2_2017'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_B2_2017) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SignalModel_B2_2017_Sig_B2_2017'
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: Category B2_2017
+frame_m3m_3fd4cf0[m3m] = (RooHist::h_Sig_B2_2017,RooCurve::SignalModel_B2_2017_Norm[m3m]_Range[fit_nll_SignalModel_B2_2017_Sig_B2_2017]_NormRange[fit_nll_SignalModel_B2_2017_Sig_B2_2017],TPaveText::SignalModel_B2_2017_paramBox)
+[#1] INFO:InputArguments -- RooAbsData::plotOn(Sig_C2_2017) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_C2_2017) p.d.f was fitted in range and no explicit plot,norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_C2_2017) only plotting range 'fit_nll_SignalModel_C2_2017_Sig_C2_2017'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SignalModel_C2_2017) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SignalModel_C2_2017_Sig_C2_2017'
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: Category C2_2017
+frame_m3m_51d4570[m3m] = (RooHist::h_Sig_C2_2017,RooCurve::SignalModel_C2_2017_Norm[m3m]_Range[fit_nll_SignalModel_C2_2017_Sig_C2_2017]_NormRange[fit_nll_SignalModel_C2_2017_Sig_C2_2017],TPaveText::SignalModel_C2_2017_paramBox)
+root -b -q 'createDataCards.cxx(" /lustrehome/fsimone/MVA_2017/datacardT3Mu_dataset_2017_miniAOD_baseline_noOmega_8julyv3.root", "2017" )';cd datacards; combineCards.py CMS_T3MSignal_13TeV_A1_2017.txt CMS_T3MSignal_13TeV_A2_2017.txt CMS_T3MSignal_13TeV_B1_2017.txt CMS_T3MSignal_13TeV_B2_2017.txt  CMS_T3MSignal_13TeV_C1_2017.txt CMS_T3MSignal_13TeV_C2_2017.txt > CMS_T3MSignal_13TeV_Combined_2017.txt;
